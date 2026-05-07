@@ -1,4 +1,4 @@
-# frontend/app.py - Version couleurs fraîches (sans noir/violet)
+# frontend/app.py - Version ULTRA FRESH · Lime/Mint/Coral palette
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -17,324 +17,518 @@ from backend.database.db_manager import DatabaseManager
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Voice-to-Calorie",
-    page_icon="🎙️",
+    page_icon="🥑",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
-# ── Design system - Fresh colors (Green/Blue/Orange/White) ───────────────────
+# ── Design system ─────────────────────────────────────────────────────────────
 st.markdown("""
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 
 <style>
-/* ── Reset & base ── */
-* { box-sizing: border-box; }
+/* ══════════════════════════════════════════════
+   RESET & TOKENS
+══════════════════════════════════════════════ */
+:root {
+  --bg:        #F7FBF4;
+  --bg2:       #EEF7E8;
+  --white:     #FFFFFF;
+  --lime:      #A8E063;
+  --lime-deep: #7CC63A;
+  --mint:      #3DDC97;
+  --mint-deep: #23B87A;
+  --coral:     #FF6B6B;
+  --amber:     #FFB347;
+  --sky:       #5BC8FB;
+  --ink:       #0F1F0E;
+  --ink2:      #2A3D28;
+  --muted:     #7A9478;
+  --border:    #D8EDCC;
+  --shadow:    rgba(60,140,60,.08);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 html, body, [class*="css"] {
-    font-family: 'DM Sans', sans-serif;
-    background: #F0F7F4;
-    color: #1A2E2A;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    background: var(--bg) !important;
+    color: var(--ink);
 }
 
-/* ── Sidebar fresh ── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--lime-deep); border-radius: 99px; }
+
+/* ══════════════════════════════════════════════
+   SIDEBAR
+══════════════════════════════════════════════ */
 section[data-testid="stSidebar"] {
-    background: #FFFFFF !important;
-    border-right: 1px solid #D1E8E0;
+    background: var(--white) !important;
+    border-right: 1.5px solid var(--border) !important;
 }
-section[data-testid="stSidebar"] .stMarkdown h2 {
-    font-family: 'Syne', sans-serif;
-    font-size: 0.7rem;
-    letter-spacing: 0.15em;
+section[data-testid="stSidebar"] > div { padding: 0 !important; }
+
+.sb-brand {
+    padding: 1.6rem 1.4rem 1rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+.sb-brand-icon {
+    width: 38px; height: 38px;
+    background: linear-gradient(135deg, var(--lime) 0%, var(--mint) 100%);
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 14px rgba(168,224,99,.4);
+}
+.sb-brand-name {
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .14em;
     text-transform: uppercase;
-    color: #2D9C7A;
-    margin-top: 1.5rem;
+    color: var(--ink2);
+}
+.sb-brand-tagline {
+    font-size: .6rem;
+    color: var(--muted);
+    letter-spacing: .06em;
 }
 
-/* ── Hero fresh ── */
-.hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3.5rem 2rem 2.5rem;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(135deg, #E8F5F0 0%, #D1E8E0 100%);
-    border-radius: 24px;
-    margin-bottom: 1rem;
+.sb-section { padding: 1rem 1.2rem .5rem; }
+.sb-label {
+    font-size: .62rem;
+    font-weight: 700;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--mint-deep);
+    margin-bottom: .7rem;
+    display: flex; align-items: center; gap: .35rem;
 }
-.hero::before {
+.sb-label::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+}
+
+.sb-stat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+    margin-bottom: .6rem;
+}
+.sb-stat-tile {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: .75rem .8rem;
+    text-align: center;
+}
+.sb-stat-tile .val {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--ink2);
+    line-height: 1;
+}
+.sb-stat-tile .lbl {
+    font-size: .6rem;
+    font-weight: 600;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: .25rem;
+}
+.sb-stat-tile.accent-lime { border-color: var(--lime); background: #F3FCE8; }
+.sb-stat-tile.accent-mint { border-color: var(--mint); background: #EAFAF3; }
+
+/* ══════════════════════════════════════════════
+   HERO BANNER
+══════════════════════════════════════════════ */
+.hero-wrap {
+    position: relative;
+    border-radius: 28px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    background: var(--ink2);
+    padding: 3rem 3rem 2.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 2rem;
+    min-height: 200px;
+}
+.hero-wrap::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: radial-gradient(ellipse 70% 55% at 50% -10%, rgba(45,156,122,0.15) 0%, transparent 70%);
+    background:
+        radial-gradient(ellipse 55% 80% at 15% 120%, rgba(168,224,99,.55) 0%, transparent 60%),
+        radial-gradient(ellipse 40% 60% at 85% -10%, rgba(61,220,151,.45) 0%, transparent 55%),
+        radial-gradient(ellipse 30% 50% at 50% 110%, rgba(255,107,107,.2) 0%, transparent 55%);
     pointer-events: none;
 }
-.hero-label {
-    font-size: 0.7rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: #2D9C7A;
-    margin-bottom: 0.75rem;
+.hero-wrap::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle, rgba(255,255,255,.07) 1px, transparent 1px);
+    background-size: 22px 22px;
+    pointer-events: none;
+}
+.hero-left { position: relative; z-index: 1; }
+.hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    background: rgba(255,255,255,.12);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,.18);
+    border-radius: 999px;
+    padding: .22rem .75rem;
+    font-size: .65rem;
     font-weight: 600;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--lime);
+    margin-bottom: .9rem;
 }
 .hero-title {
-    font-family: 'Syne', sans-serif;
-    font-size: clamp(2.2rem, 5vw, 3.5rem);
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    line-height: 1.05;
-    background: linear-gradient(135deg, #1A5D4A 30%, #2D9C7A 100%);
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    font-size: clamp(2.4rem, 4.5vw, 3.8rem);
+    font-weight: 400;
+    line-height: 1;
+    color: var(--white);
+    letter-spacing: -.02em;
+    margin-bottom: .5rem;
+}
+.hero-title span {
+    background: linear-gradient(100deg, var(--lime) 0%, var(--mint) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin-bottom: 0.75rem;
 }
 .hero-sub {
-    color: #4A7C6A;
-    font-size: 0.95rem;
-    font-weight: 500;
+    font-size: .95rem;
+    color: rgba(255,255,255,.55);
     direction: rtl;
-    font-size: 1rem;
+    font-weight: 400;
 }
-
-/* ── Divider ── */
-.divider {
-    border: none;
-    border-top: 1px solid #D1E8E0;
-    margin: 1.5rem 0;
+.hero-right {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: .5rem;
 }
-
-/* ── Panel / card fresh ── */
-.panel {
-    background: #FFFFFF;
-    border: 1px solid #D1E8E0;
-    border-radius: 20px;
-    padding: 1.5rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+.hero-badge {
+    background: rgba(255,255,255,.1);
+    border: 1px solid rgba(255,255,255,.15);
+    backdrop-filter: blur(8px);
+    border-radius: 16px;
+    padding: .8rem 1.2rem;
+    text-align: center;
+    min-width: 100px;
 }
-.panel-title {
-    font-family: 'Syne', sans-serif;
-    font-size: 0.8rem;
-    letter-spacing: 0.12em;
+.hero-badge .num {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--lime);
+    line-height: 1;
+}
+.hero-badge .sub {
+    font-size: .62rem;
+    letter-spacing: .1em;
     text-transform: uppercase;
-    color: #2D9C7A;
-    margin-bottom: 1rem;
+    color: rgba(255,255,255,.45);
+    margin-top: .2rem;
 }
 
-/* ── Macro strip fresh ── */
+/* ══════════════════════════════════════════════
+   PANELS
+══════════════════════════════════════════════ */
+.panel {
+    background: var(--white);
+    border: 1.5px solid var(--border);
+    border-radius: 24px;
+    padding: 1.6rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 16px var(--shadow);
+    transition: box-shadow .2s;
+}
+.panel:hover { box-shadow: 0 6px 24px var(--shadow); }
+.panel-header {
+    display: flex;
+    align-items: center;
+    gap: .55rem;
+    margin-bottom: 1.1rem;
+}
+.panel-icon {
+    width: 32px; height: 32px;
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: .9rem;
+    flex-shrink: 0;
+}
+.panel-icon.green { background: linear-gradient(135deg, var(--lime) 0%, var(--mint) 100%); }
+.panel-icon.blue  { background: linear-gradient(135deg, var(--sky) 0%, #3B6EEF 100%); }
+.panel-title {
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--ink2);
+}
+
+/* ══════════════════════════════════════════════
+   MACRO STRIP
+══════════════════════════════════════════════ */
 .macro-strip {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0.75rem;
+    gap: .65rem;
     margin: 1.25rem 0;
 }
 .macro-card {
-    background: #F8FCFA;
-    border: 1px solid #D1E8E0;
-    border-radius: 16px;
-    padding: 1rem;
+    border-radius: 20px;
+    padding: 1.1rem .8rem;
     text-align: center;
-    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+    transition: transform .2s;
 }
-.macro-card:hover { 
-    border-color: #2D9C7A; 
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(45,156,122,0.1);
+.macro-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: .12;
+    background: radial-gradient(ellipse at 50% 0%, white, transparent 70%);
 }
-.macro-val {
-    font-family: 'Syne', sans-serif;
-    font-size: 1.6rem;
+.macro-card:hover { transform: translateY(-3px); }
+.macro-cal  { background: linear-gradient(145deg, #3DDC97 0%, #23B87A 100%); }
+.macro-prot { background: linear-gradient(145deg, #5BC8FB 0%, #2F86D9 100%); }
+.macro-gluc { background: linear-gradient(145deg, #FFB347 0%, #F07830 100%); }
+.macro-lip  { background: linear-gradient(145deg, #FF6B6B 0%, #D93F3F 100%); }
+
+.macro-card .macro-val {
+    font-size: 1.7rem;
     font-weight: 800;
-    color: #1A5D4A;
+    color: white;
     line-height: 1;
 }
-.macro-unit {
-    font-size: 0.7rem;
-    color: #6B9A88;
-    margin-top: 0.2rem;
+.macro-card .macro-unit {
+    font-size: .62rem;
+    color: rgba(255,255,255,.7);
+    margin-top: .15rem;
 }
-.macro-label {
-    font-size: 0.75rem;
-    margin-top: 0.4rem;
+.macro-card .macro-label {
+    font-size: .65rem;
+    font-weight: 700;
+    letter-spacing: .1em;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    font-weight: 600;
+    color: rgba(255,255,255,.85);
+    margin-top: .4rem;
 }
-.macro-cal .macro-label { color: #2D9C7A; }
-.macro-cal .macro-val { color: #1A5D4A; }
-.macro-prot .macro-label { color: #3B82F6; }
-.macro-prot .macro-val { color: #2563EB; }
-.macro-gluc .macro-label { color: #F59E0B; }
-.macro-gluc .macro-val { color: #D97706; }
-.macro-lip .macro-label { color: #EF4444; }
-.macro-lip .macro-val { color: #DC2626; }
 
-/* ── Detected foods badge row fresh ── */
+/* ══════════════════════════════════════════════
+   FOOD BADGES
+══════════════════════════════════════════════ */
 .food-badge {
-    display: inline-block;
-    background: #E8F5F0;
-    border: 1px solid #C5DDD3;
+    display: inline-flex;
+    align-items: center;
+    gap: .3rem;
+    background: var(--bg2);
+    border: 1.5px solid var(--border);
     border-radius: 999px;
-    padding: 0.3rem 0.8rem;
-    font-size: 0.78rem;
-    color: #1A5D4A;
-    margin: 0.25rem;
-    font-weight: 500;
+    padding: .28rem .75rem;
+    font-size: .77rem;
+    font-weight: 600;
+    color: var(--ink2);
+    margin: .2rem;
+    transition: all .18s;
+    cursor: default;
 }
 .food-badge:hover {
-    background: #2D9C7A;
-    color: white;
-    border-color: #2D9C7A;
+    background: var(--lime);
+    border-color: var(--lime-deep);
+    color: var(--ink);
+    transform: scale(1.04);
 }
 
-/* ── Status pill fresh ── */
+/* ══════════════════════════════════════════════
+   STATUS PILLS
+══════════════════════════════════════════════ */
 .pill {
     display: inline-flex;
     align-items: center;
-    gap: 0.4rem;
-    padding: 0.3rem 0.9rem;
+    gap: .4rem;
+    padding: .35rem 1rem;
     border-radius: 999px;
-    font-size: 0.78rem;
+    font-size: .78rem;
     font-weight: 600;
 }
-.pill-success { background: #D1FAE5; color: #065F46; border: 1px solid #A7F3D0; }
-.pill-error   { background: #FEE2E2; color: #991B1B; border: 1px solid #FECACA; }
-.pill-info    { background: #DBEAFE; color: #1E40AF; border: 1px solid #BFDBFE; }
+.pill-success { background: #D0FAEA; color: #0B6B40; border: 1.5px solid #8DE8BE; }
+.pill-error   { background: #FFE5E5; color: #961818; border: 1.5px solid #FFAAAA; }
+.pill-info    { background: #E0F3FE; color: #0E4F80; border: 1.5px solid #90D4FA; }
 
-/* ── Stat row in sidebar fresh ── */
-.stat-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding: 0.45rem 0;
-    border-bottom: 1px solid #D1E8E0;
-}
-.stat-row:last-child { border-bottom: none; }
-.stat-key   { font-size: 0.8rem; color: #6B9A88; font-weight: 500; }
-.stat-value { font-family: 'Syne', sans-serif; font-size: 1rem; font-weight: 700; color: #1A5D4A; }
-
-/* ── Buttons fresh ── */
+/* ══════════════════════════════════════════════
+   BUTTONS
+══════════════════════════════════════════════ */
 .stButton > button {
-    background: linear-gradient(135deg, #2D9C7A 0%, #1A5D4A 100%) !important;
+    background: linear-gradient(135deg, var(--lime-deep) 0%, var(--mint-deep) 100%) !important;
     color: white !important;
     border: none !important;
-    border-radius: 12px !important;
-    font-family: 'DM Sans', sans-serif !important;
-    font-weight: 600 !important;
-    letter-spacing: 0.02em !important;
-    padding: 0.55rem 1.2rem !important;
-    transition: all 0.2s !important;
+    border-radius: 14px !important;
+    font-family: 'Bricolage Grotesque', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: .85rem !important;
+    letter-spacing: .03em !important;
+    padding: .6rem 1.3rem !important;
+    transition: all .2s !important;
+    box-shadow: 0 4px 16px rgba(124,198,58,.3) !important;
     width: 100%;
 }
 .stButton > button:hover {
-    background: linear-gradient(135deg, #1A5D4A 0%, #0F3D30 100%) !important;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 20px rgba(45,156,122,0.35) !important;
+    background: linear-gradient(135deg, var(--mint-deep) 0%, #0F8055 100%) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 24px rgba(61,220,151,.4) !important;
 }
+.stButton > button:active { transform: translateY(0) !important; }
 
-/* Destructive button fresh */
 .danger-btn > button {
-    background: #FEF2F2 !important;
-    color: #DC2626 !important;
-    border: 1px solid #FEE2E2 !important;
+    background: #FFF0F0 !important;
+    color: #C02020 !important;
+    border: 1.5px solid #FFCCCC !important;
+    box-shadow: none !important;
 }
 .danger-btn > button:hover {
-    background: #FEE2E2 !important;
-    box-shadow: none !important;
+    background: #FFE0E0 !important;
     transform: none !important;
+    box-shadow: none !important;
 }
 
-/* ── Selectbox / inputs fresh ── */
+/* ══════════════════════════════════════════════
+   INPUTS & SELECTS
+══════════════════════════════════════════════ */
 .stSelectbox > div > div,
 .stTextArea textarea,
 .stTextInput input {
-    background: #FFFFFF !important;
-    border: 1px solid #D1E8E0 !important;
-    border-radius: 12px !important;
-    color: #1A2E2A !important;
-    font-family: 'DM Sans', sans-serif !important;
+    background: var(--bg) !important;
+    border: 1.5px solid var(--border) !important;
+    border-radius: 14px !important;
+    color: var(--ink) !important;
+    font-family: 'Bricolage Grotesque', sans-serif !important;
+    font-size: .9rem !important;
 }
 .stTextArea textarea:focus,
 .stTextInput input:focus {
-    border-color: #2D9C7A !important;
-    box-shadow: 0 0 0 2px rgba(45,156,122,0.15) !important;
+    border-color: var(--mint) !important;
+    box-shadow: 0 0 0 3px rgba(61,220,151,.18) !important;
 }
+.stTextArea textarea { min-height: 110px !important; }
 
-/* ── Slider fresh ── */
+/* ══════════════════════════════════════════════
+   SLIDER
+══════════════════════════════════════════════ */
 .stSlider [data-baseweb="slider"] div[role="slider"] {
-    background: #2D9C7A !important;
+    background: linear-gradient(135deg, var(--lime-deep), var(--mint)) !important;
+    box-shadow: 0 2px 8px rgba(61,220,151,.35) !important;
 }
 
-/* ── Tabs fresh ── */
+/* ══════════════════════════════════════════════
+   TABS
+══════════════════════════════════════════════ */
 .stTabs [data-baseweb="tab-list"] {
     background: transparent;
-    border-bottom: 1px solid #D1E8E0;
-    gap: 0;
+    border-bottom: 1.5px solid var(--border);
+    gap: .2rem;
 }
 .stTabs [data-baseweb="tab"] {
     background: transparent !important;
-    color: #6B9A88 !important;
+    color: var(--muted) !important;
     border: none !important;
-    font-family: 'DM Sans', sans-serif !important;
-    font-size: 0.85rem !important;
-    padding: 0.7rem 1.4rem !important;
-    border-bottom: 2px solid transparent !important;
-    transition: all 0.2s !important;
+    font-family: 'Bricolage Grotesque', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: .83rem !important;
+    padding: .75rem 1.3rem !important;
+    border-bottom: 2.5px solid transparent !important;
+    transition: all .2s !important;
 }
 .stTabs [aria-selected="true"] {
-    color: #2D9C7A !important;
-    border-bottom-color: #2D9C7A !important;
+    color: var(--mint-deep) !important;
+    border-bottom-color: var(--mint-deep) !important;
 }
 
-/* ── Expander fresh ── */
+/* ══════════════════════════════════════════════
+   EXPANDER
+══════════════════════════════════════════════ */
 .streamlit-expanderHeader {
-    background: #F8FCFA !important;
+    background: var(--bg) !important;
     border-radius: 12px !important;
-    color: #1A5D4A !important;
-    font-size: 0.85rem !important;
+    color: var(--ink2) !important;
+    font-size: .84rem !important;
     font-weight: 600 !important;
+    border: 1px solid var(--border) !important;
 }
 
-/* ── Dataframe fresh ── */
+/* ══════════════════════════════════════════════
+   DATAFRAME
+══════════════════════════════════════════════ */
 .stDataFrame {
-    border: 1px solid #D1E8E0 !important;
-    border-radius: 14px !important;
+    border: 1.5px solid var(--border) !important;
+    border-radius: 16px !important;
     overflow: hidden;
 }
 
-/* ── Metric fresh ── */
+/* ══════════════════════════════════════════════
+   METRIC
+══════════════════════════════════════════════ */
 [data-testid="metric-container"] {
-    background: #F8FCFA;
-    border: 1px solid #D1E8E0;
-    border-radius: 14px;
-    padding: 0.75rem 1rem !important;
+    background: var(--white);
+    border: 1.5px solid var(--border);
+    border-radius: 16px;
+    padding: .8rem 1rem !important;
 }
 
-/* ── Code block fresh ── */
-.stCodeBlock { 
-    background: #F8FCFA !important;
-    border-radius: 12px !important;
-    border: 1px solid #D1E8E0 !important;
+/* ══════════════════════════════════════════════
+   CODE BLOCK
+══════════════════════════════════════════════ */
+.stCodeBlock {
+    background: var(--bg) !important;
+    border-radius: 14px !important;
+    border: 1px solid var(--border) !important;
 }
 
-/* ── Hide Streamlit chrome ── */
-#MainMenu, footer, header { visibility: hidden; }
-
-/* ── Example cards fresh ── */
+/* ══════════════════════════════════════════════
+   EXAMPLE CARDS
+══════════════════════════════════════════════ */
 .example-card {
-    background: #F8FCFA;
-    border: 1px solid #D1E8E0;
-    border-radius: 14px;
-    padding: 0.9rem 1rem;
-    margin-bottom: 0.6rem;
-    transition: all 0.2s;
+    background: var(--white);
+    border: 1.5px solid var(--border);
+    border-radius: 16px;
+    padding: .9rem 1rem;
+    margin-bottom: .55rem;
+    transition: all .18s;
+    cursor: default;
 }
 .example-card:hover {
-    border-color: #2D9C7A;
-    background: #FFFFFF;
+    border-color: var(--lime-deep);
+    background: var(--bg2);
+    transform: translateX(3px);
 }
+
+/* ══════════════════════════════════════════════
+   HELPERS
+══════════════════════════════════════════════ */
+.hr { border: none; border-top: 1.5px solid var(--border); margin: 1.2rem 0; }
+#MainMenu, footer, header { visibility: hidden; }
+.stSpinner > div > div { border-top-color: var(--mint) !important; }
+.stCaption { color: var(--muted) !important; font-size: .75rem !important; }
+.stAlert { border-radius: 14px !important; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -357,9 +551,19 @@ def _init():
 
 _init()
 
-# ── Sidebar fresh ────────────────────────────────────────────────────────────
+# ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("## ⚙ Paramètres")
+    st.markdown("""
+    <div class="sb-brand">
+        <div class="sb-brand-icon">🥑</div>
+        <div>
+            <div class="sb-brand-name">Voice-to-Calorie</div>
+            <div class="sb-brand-tagline">Arabic NLP · Nutrition AI</div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown('<div class="sb-section"><div class="sb-label">⚙ Moteur NER</div></div>', unsafe_allow_html=True)
 
     extraction_method = st.selectbox(
         "Moteur NER",
@@ -372,31 +576,37 @@ with st.sidebar:
         if api_key and st.session_state.llm_extractor is None:
             st.session_state.llm_extractor = LLMNERExtractor(api_key)
 
-    st.markdown("## 📊 Statistiques")
     stats = st.session_state.db.get_statistics()
 
+    st.markdown('<div class="sb-section"><div class="sb-label">📊 Statistiques</div></div>', unsafe_allow_html=True)
+
     st.markdown(f"""
-    <div class="panel" style="padding:1rem;">
-        <div class="stat-row">
-            <span class="stat-key">Total repas</span>
-            <span class="stat-value">{stats["total_meals"]}</span>
+    <div style="padding: 0 1.2rem 1rem;">
+        <div class="sb-stat-grid">
+            <div class="sb-stat-tile accent-lime">
+                <div class="val">{stats["total_meals"]}</div>
+                <div class="lbl">Total repas</div>
+            </div>
+            <div class="sb-stat-tile accent-mint">
+                <div class="val">{stats["voice_meals"]}</div>
+                <div class="lbl">Par voix</div>
+            </div>
         </div>
-        <div class="stat-row">
-            <span class="stat-key">Par voix</span>
-            <span class="stat-value">{stats["voice_meals"]}</span>
-        </div>
-        <div class="stat-row">
-            <span class="stat-key">Calories moy.</span>
-            <span class="stat-value">{stats["avg_calories"]:.0f} <small style="font-size:.65rem;color:#6B9A88;">kcal</small></span>
-        </div>
-        <div class="stat-row">
-            <span class="stat-key">Prot. moy.</span>
-            <span class="stat-value">{stats.get("avg_proteines", 0):.1f} <small style="font-size:.65rem;color:#6B9A88;">g</small></span>
+        <div class="sb-stat-grid">
+            <div class="sb-stat-tile">
+                <div class="val" style="font-size:1.15rem;color:#23B87A;">{stats["avg_calories"]:.0f}</div>
+                <div class="lbl">Cal. moy. (kcal)</div>
+            </div>
+            <div class="sb-stat-tile">
+                <div class="val" style="font-size:1.15rem;color:#2F86D9;">{stats.get("avg_proteines", 0):.1f}g</div>
+                <div class="lbl">Prot. moy.</div>
+            </div>
         </div>
     </div>
     """, unsafe_allow_html=True)
 
-    st.markdown("<div class='danger-btn'>", unsafe_allow_html=True)
+    st.markdown("<div style='height:.5rem'></div>", unsafe_allow_html=True)
+    st.markdown("<div class='danger-btn' style='padding:0 1.2rem 1.2rem'>", unsafe_allow_html=True)
     if st.button("🗑 Effacer l'historique", use_container_width=True):
         st.session_state.db.delete_all()
         st.session_state.voice_text = None
@@ -404,12 +614,25 @@ with st.sidebar:
         st.rerun()
     st.markdown("</div>", unsafe_allow_html=True)
 
-# ── Hero fresh ────────────────────────────────────────────────────────────────
-st.markdown("""
-<div class="hero">
-    <div class="hero-label">🎙 Nutrition intelligente</div>
-    <div class="hero-title">Voice-to-Calorie</div>
-    <div class="hero-sub">تحدث عن وجبتك · تحليل فوري للسعرات الحرارية</div>
+# ── Hero ──────────────────────────────────────────────────────────────────────
+stats_hero = st.session_state.db.get_statistics()
+st.markdown(f"""
+<div class="hero-wrap">
+    <div class="hero-left">
+        <div class="hero-eyebrow">🎙 Nutrition intelligente</div>
+        <div class="hero-title">Voice-to-<span>Calorie</span></div>
+        <div class="hero-sub">تحدث عن وجبتك · تحليل فوري للسعرات الحرارية</div>
+    </div>
+    <div class="hero-right">
+        <div class="hero-badge">
+            <div class="num">{stats_hero["total_meals"]}</div>
+            <div class="sub">repas enregistrés</div>
+        </div>
+        <div class="hero-badge">
+            <div class="num" style="color:#3DDC97;">{stats_hero["avg_calories"]:.0f}</div>
+            <div class="sub">kcal moyenne</div>
+        </div>
+    </div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -418,13 +641,18 @@ col_voice, col_text = st.columns(2, gap="medium")
 
 # ─── Colonne VOIX ─────────────────────────────────────────────────────────────
 with col_voice:
-    st.markdown('<div class="panel">', unsafe_allow_html=True)
-    st.markdown('<div class="panel-title">🎙 Enregistrement vocal</div>', unsafe_allow_html=True)
+    st.markdown("""
+    <div class="panel">
+        <div class="panel-header">
+            <div class="panel-icon green">🎙</div>
+            <div class="panel-title">Enregistrement vocal</div>
+        </div>
+    """, unsafe_allow_html=True)
 
     duration = st.slider("Durée (s)", 3, 10, 5, label_visibility="collapsed")
-    st.caption(f"Durée d'écoute : **{duration} s** — parlez en arabe")
+    st.caption(f"⏱ Durée d'écoute : **{duration} s** — parlez en arabe")
 
-    if st.button("⬤ Démarrer l'enregistrement", use_container_width=True):
+    if st.button("⬤  Démarrer l'enregistrement", use_container_width=True):
         with st.spinner(f"Écoute en cours — {duration} s…"):
             try:
                 text, voice_time = st.session_state.speech_converter.listen_and_convert(
@@ -440,14 +668,13 @@ with col_voice:
                 st.markdown(f'<span class="pill pill-error">❌ {e}</span>', unsafe_allow_html=True)
 
     if st.session_state.voice_text:
-        st.markdown("---")
+        st.markdown("<div class='hr'></div>", unsafe_allow_html=True)
         st.markdown("**Texte reconnu**")
         st.code(st.session_state.voice_text, language="text")
         st.markdown(
             f'<span class="pill pill-info">⏱ Temps parole : {st.session_state.voice_duration:.1f} s</span>',
             unsafe_allow_html=True,
         )
-
         if st.button("Analyser ce repas →", use_container_width=True, key="btn_voice_analyze"):
             with st.spinner("Analyse NER…"):
                 try:
@@ -476,8 +703,13 @@ with col_voice:
 
 # ─── Colonne TEXTE ────────────────────────────────────────────────────────────
 with col_text:
-    st.markdown('<div class="panel">', unsafe_allow_html=True)
-    st.markdown('<div class="panel-title">⌨ Saisie textuelle</div>', unsafe_allow_html=True)
+    st.markdown("""
+    <div class="panel">
+        <div class="panel-header">
+            <div class="panel-icon blue">⌨</div>
+            <div class="panel-title">Saisie textuelle</div>
+        </div>
+    """, unsafe_allow_html=True)
 
     text_input = st.text_area(
         "Décrivez votre repas en arabe",
@@ -485,7 +717,7 @@ with col_text:
         height=108,
         label_visibility="collapsed",
     )
-    st.caption("Ecrivez en arabe · Exemples disponibles dans l'onglet ci-dessous")
+    st.caption("✍ Écrivez en arabe · Exemples dans l'onglet ci-dessous")
 
     if st.button("Analyser le texte →", use_container_width=True, key="btn_text_analyze"):
         if not text_input.strip():
@@ -521,7 +753,7 @@ if st.session_state.last_nutrition:
     method_tag = st.session_state.last_method or "–"
 
     st.markdown(f'<span class="pill pill-success">✓ Analyse réussie — moteur : {method_tag}</span>', unsafe_allow_html=True)
-    st.markdown("")
+    st.markdown("<div style='height:.4rem'></div>", unsafe_allow_html=True)
 
     st.markdown(f"""
     <div class="macro-strip">
@@ -560,31 +792,34 @@ if st.session_state.last_nutrition:
         if raw:
             st.markdown(f"**Texte original :** `{raw}`")
 
-    # Mini donut chart fresh
     fig = go.Figure(go.Pie(
         labels=["Protéines", "Glucides", "Lipides"],
         values=[nut["proteines"], nut["glucides"], nut["lipides"]],
         hole=0.72,
-        marker=dict(colors=["#3B82F6", "#F59E0B", "#EF4444"],
-                    line=dict(color="#F0F7F4", width=3)),
+        marker=dict(
+            colors=["#5BC8FB", "#FFB347", "#FF6B6B"],
+            line=dict(color="#FFFFFF", width=3),
+        ),
         textinfo="none",
     ))
     fig.update_layout(
         showlegend=True,
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
-        font=dict(family="DM Sans", color="#6B9A88", size=11),
-        legend=dict(orientation="h", x=0.5, xanchor="center", y=-0.1),
+        font=dict(family="Bricolage Grotesque", color="#7A9478", size=11),
+        legend=dict(orientation="h", x=0.5, xanchor="center", y=-0.12,
+                    font=dict(color="#2A3D28")),
         margin=dict(t=10, b=10, l=10, r=10),
-        height=200,
+        height=210,
         annotations=[dict(
             text=f"<b>{nut['calories']:.0f}</b><br><span style='font-size:10px'>kcal</span>",
-            x=0.5, y=0.5, font_size=18, showarrow=False, font_color="#1A5D4A"
+            x=0.5, y=0.5, font_size=18, showarrow=False,
+            font_color="#0F1F0E",
         )],
     )
     st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
 
-# ── Tabs fresh ────────────────────────────────────────────────────────────────
+# ── Tabs ──────────────────────────────────────────────────────────────────────
 st.markdown("<div style='margin-top:2rem'></div>", unsafe_allow_html=True)
 tab1, tab2, tab3 = st.tabs(["📜 Historique", "📈 Évolution", "💡 Exemples arabes"])
 
@@ -610,16 +845,21 @@ with tab2:
         fig_line = px.line(
             df_d, x="Date", y="Calories",
             title="Évolution quotidienne des calories",
-            color_discrete_sequence=["#2D9C7A"],
+            color_discrete_sequence=["#3DDC97"],
+        )
+        fig_line.update_traces(
+            line=dict(width=2.5),
+            fill="tozeroy",
+            fillcolor="rgba(61,220,151,.08)",
         )
         fig_line.update_layout(
             paper_bgcolor="rgba(0,0,0,0)",
             plot_bgcolor="rgba(0,0,0,0)",
-            font=dict(family="DM Sans", color="#6B9A88"),
-            title_font=dict(family="Syne", color="#1A5D4A", size=15),
-            xaxis=dict(showgrid=False, color="#6B9A88"),
-            yaxis=dict(showgrid=True, gridcolor="#D1E8E0", color="#6B9A88"),
-            margin=dict(t=40, b=20, l=0, r=0),
+            font=dict(family="Bricolage Grotesque", color="#7A9478"),
+            title_font=dict(family="Bricolage Grotesque", color="#0F1F0E", size=15, weight=700),
+            xaxis=dict(showgrid=False, color="#7A9478"),
+            yaxis=dict(showgrid=True, gridcolor="#D8EDCC", color="#7A9478"),
+            margin=dict(t=45, b=20, l=0, r=0),
         )
         st.plotly_chart(fig_line, use_container_width=True, config={"displayModeBar": False})
 
@@ -629,14 +869,14 @@ with tab2:
             names=["Protéines", "Glucides", "Lipides"],
             title="Répartition moyenne des macronutriments",
             hole=0.55,
-            color_discrete_sequence=["#3B82F6", "#F59E0B", "#EF4444"],
+            color_discrete_sequence=["#5BC8FB", "#FFB347", "#FF6B6B"],
         )
         fig_pie.update_layout(
             paper_bgcolor="rgba(0,0,0,0)",
-            font=dict(family="DM Sans", color="#6B9A88"),
-            title_font=dict(family="Syne", color="#1A5D4A", size=15),
-            legend=dict(orientation="h", x=0.5, xanchor="center", y=-0.05),
-            margin=dict(t=40, b=20),
+            font=dict(family="Bricolage Grotesque", color="#7A9478"),
+            title_font=dict(family="Bricolage Grotesque", color="#0F1F0E", size=15, weight=700),
+            legend=dict(orientation="h", x=0.5, xanchor="center", y=-0.08),
+            margin=dict(t=45, b=20),
         )
         st.plotly_chart(fig_pie, use_container_width=True, config={"displayModeBar": False})
     else:
@@ -644,35 +884,38 @@ with tab2:
 
 with tab3:
     examples = [
-        ("Repas léger", "أكلت نصف بيتزا"),
-        ("Boisson", "شربت كوبًا كبيرًا من العصير"),
-        ("Déjeuner", "أكلت صحنًا متوسطًا من المعكرونة"),
-        ("Snack", "تناولت ملعقة عسل"),
+        ("Repas léger",   "أكلت نصف بيتزا"),
+        ("Boisson",       "شربت كوبًا كبيرًا من العصير"),
+        ("Déjeuner",      "أكلت صحنًا متوسطًا من المعكرونة"),
+        ("Snack",         "تناولت ملعقة عسل"),
         ("Plat marocain", "تناولت طاجين دجاج بالزيتون"),
-        ("Couscous", "أكلت كسكس باللحم والخضر"),
-        ("Sandwich", "تناولت ساندويتش دجاج مع بطاطس"),
-        ("Petits déj.", "أكلت 2 بيضات و3 شرائح خبز"),
-        ("Salade", "تناولت طبقًا كبيرًا من السلطة"),
-        ("Fruits", "أكلت تفاحة وموزة"),
-        ("Légumes", "أكلت بعض البطاطس"),
-        ("Lait", "شربت نصف كوب حليب"),
-        ("Viande", "أكلت كمية قليلة من اللحم"),
-        ("Gâteau", "أكلت قطعة صغيرة من الكعك"),
-        ("Riz", "تناولت قليلًا من الأرز"),
+        ("Couscous",      "أكلت كسكس باللحم والخضر"),
+        ("Sandwich",      "تناولت ساندويتش دجاج مع بطاطس"),
+        ("Petit déj.",    "أكلت 2 بيضات و3 شرائح خبز"),
+        ("Salade",        "تناولت طبقًا كبيرًا من السلطة"),
+        ("Fruits",        "أكلت تفاحة وموزة"),
+        ("Légumes",       "أكلت بعض البطاطس"),
+        ("Lait",          "شربت نصف كوب حليب"),
+        ("Viande",        "أكلت كمية قليلة من اللحم"),
+        ("Gâteau",        "أكلت قطعة صغيرة من الكعك"),
+        ("Riz",           "تناولت قليلًا من الأرز"),
     ]
     cols = st.columns(3)
     for i, (cat, ex) in enumerate(examples):
         with cols[i % 3]:
             st.markdown(f"""
             <div class="example-card">
-                <div style="font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:#2D9C7A;margin-bottom:.3rem;font-weight:600;">{cat}</div>
-                <div style="font-size:.9rem;color:#1A2E2A;direction:rtl;text-align:right;">{ex}</div>
+                <div style="font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;
+                            color:#23B87A;margin-bottom:.3rem;font-weight:700;">{cat}</div>
+                <div style="font-size:.88rem;color:#0F1F0E;direction:rtl;text-align:right;
+                            line-height:1.5;">{ex}</div>
             </div>
             """, unsafe_allow_html=True)
 
-# ── Footer fresh ──────────────────────────────────────────────────────────────
+# ── Footer ────────────────────────────────────────────────────────────────────
 st.markdown("""
-<div style="text-align:center;padding:2rem 0 1rem;color:#A8C4B8;font-size:.75rem;letter-spacing:.08em;">
-    VOICE-TO-CALORIE &nbsp;·&nbsp; Arabic NLP Nutrition Tracker
+<div style="text-align:center;padding:2.5rem 0 1.2rem;color:#B8D4B0;
+            font-size:.7rem;letter-spacing:.12em;font-weight:500;">
+    🥑 &nbsp;VOICE-TO-CALORIE &nbsp;·&nbsp; Arabic NLP Nutrition Tracker &nbsp;·&nbsp; Powered by AI
 </div>
 """, unsafe_allow_html=True)
