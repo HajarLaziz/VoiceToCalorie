@@ -1,4 +1,4 @@
-# frontend/app.py - Version ULTRA FRESH · Lime/Mint/Coral palette
+# frontend/app.py - Version completement corrigee
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -6,6 +6,7 @@ import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import sys
 import os
+import re
 
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
@@ -13,6 +14,17 @@ from backend.audio.speech_to_text import SpeechToTextConverter
 from backend.ner.spacy_ner import SpacyNERExtractor
 from backend.ner.llm_ner import LLMNERExtractor
 from backend.database.db_manager import DatabaseManager
+
+
+def clean_arabic_text(text: str) -> str:
+    """Nettoie le texte arabe des caracteres problematiques."""
+    if not text:
+        return ""
+    # Garder seulement arabe, chiffres, espaces
+    text = re.sub(r'[^\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF0-9\s]', '', text)
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
+
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -27,9 +39,6 @@ st.markdown("""
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 
 <style>
-/* ══════════════════════════════════════════════
-   RESET & TOKENS
-══════════════════════════════════════════════ */
 :root {
   --bg:        #F7FBF4;
   --bg2:       #EEF7E8;
@@ -60,9 +69,6 @@ html, body, [class*="css"] {
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--lime-deep); border-radius: 99px; }
 
-/* ══════════════════════════════════════════════
-   SIDEBAR
-══════════════════════════════════════════════ */
 section[data-testid="stSidebar"] {
     background: var(--white) !important;
     border-right: 1.5px solid var(--border) !important;
@@ -144,9 +150,6 @@ section[data-testid="stSidebar"] > div { padding: 0 !important; }
 .sb-stat-tile.accent-lime { border-color: var(--lime); background: #F3FCE8; }
 .sb-stat-tile.accent-mint { border-color: var(--mint); background: #EAFAF3; }
 
-/* ══════════════════════════════════════════════
-   HERO BANNER
-══════════════════════════════════════════════ */
 .hero-wrap {
     position: relative;
     border-radius: 28px;
@@ -248,9 +251,6 @@ section[data-testid="stSidebar"] > div { padding: 0 !important; }
     margin-top: .2rem;
 }
 
-/* ══════════════════════════════════════════════
-   PANELS
-══════════════════════════════════════════════ */
 .panel {
     background: var(--white);
     border: 1.5px solid var(--border);
@@ -284,9 +284,6 @@ section[data-testid="stSidebar"] > div { padding: 0 !important; }
     color: var(--ink2);
 }
 
-/* ══════════════════════════════════════════════
-   MACRO STRIP
-══════════════════════════════════════════════ */
 .macro-strip {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -334,9 +331,6 @@ section[data-testid="stSidebar"] > div { padding: 0 !important; }
     margin-top: .4rem;
 }
 
-/* ══════════════════════════════════════════════
-   FOOD BADGES
-══════════════════════════════════════════════ */
 .food-badge {
     display: inline-flex;
     align-items: center;
@@ -359,9 +353,6 @@ section[data-testid="stSidebar"] > div { padding: 0 !important; }
     transform: scale(1.04);
 }
 
-/* ══════════════════════════════════════════════
-   STATUS PILLS
-══════════════════════════════════════════════ */
 .pill {
     display: inline-flex;
     align-items: center;
@@ -375,9 +366,6 @@ section[data-testid="stSidebar"] > div { padding: 0 !important; }
 .pill-error   { background: #FFE5E5; color: #961818; border: 1.5px solid #FFAAAA; }
 .pill-info    { background: #E0F3FE; color: #0E4F80; border: 1.5px solid #90D4FA; }
 
-/* ══════════════════════════════════════════════
-   BUTTONS
-══════════════════════════════════════════════ */
 .stButton > button {
     background: linear-gradient(135deg, var(--lime-deep) 0%, var(--mint-deep) 100%) !important;
     color: white !important;
@@ -411,9 +399,6 @@ section[data-testid="stSidebar"] > div { padding: 0 !important; }
     box-shadow: none !important;
 }
 
-/* ══════════════════════════════════════════════
-   INPUTS & SELECTS
-══════════════════════════════════════════════ */
 .stSelectbox > div > div,
 .stTextArea textarea,
 .stTextInput input {
@@ -431,17 +416,11 @@ section[data-testid="stSidebar"] > div { padding: 0 !important; }
 }
 .stTextArea textarea { min-height: 110px !important; }
 
-/* ══════════════════════════════════════════════
-   SLIDER
-══════════════════════════════════════════════ */
 .stSlider [data-baseweb="slider"] div[role="slider"] {
     background: linear-gradient(135deg, var(--lime-deep), var(--mint)) !important;
     box-shadow: 0 2px 8px rgba(61,220,151,.35) !important;
 }
 
-/* ══════════════════════════════════════════════
-   TABS
-══════════════════════════════════════════════ */
 .stTabs [data-baseweb="tab-list"] {
     background: transparent;
     border-bottom: 1.5px solid var(--border);
@@ -463,9 +442,6 @@ section[data-testid="stSidebar"] > div { padding: 0 !important; }
     border-bottom-color: var(--mint-deep) !important;
 }
 
-/* ══════════════════════════════════════════════
-   EXPANDER
-══════════════════════════════════════════════ */
 .streamlit-expanderHeader {
     background: var(--bg) !important;
     border-radius: 12px !important;
@@ -475,18 +451,12 @@ section[data-testid="stSidebar"] > div { padding: 0 !important; }
     border: 1px solid var(--border) !important;
 }
 
-/* ══════════════════════════════════════════════
-   DATAFRAME
-══════════════════════════════════════════════ */
 .stDataFrame {
     border: 1.5px solid var(--border) !important;
     border-radius: 16px !important;
     overflow: hidden;
 }
 
-/* ══════════════════════════════════════════════
-   METRIC
-══════════════════════════════════════════════ */
 [data-testid="metric-container"] {
     background: var(--white);
     border: 1.5px solid var(--border);
@@ -494,18 +464,12 @@ section[data-testid="stSidebar"] > div { padding: 0 !important; }
     padding: .8rem 1rem !important;
 }
 
-/* ══════════════════════════════════════════════
-   CODE BLOCK
-══════════════════════════════════════════════ */
 .stCodeBlock {
     background: var(--bg) !important;
     border-radius: 14px !important;
     border: 1px solid var(--border) !important;
 }
 
-/* ══════════════════════════════════════════════
-   EXAMPLE CARDS
-══════════════════════════════════════════════ */
 .example-card {
     background: var(--white);
     border: 1.5px solid var(--border);
@@ -521,9 +485,6 @@ section[data-testid="stSidebar"] > div { padding: 0 !important; }
     transform: translateX(3px);
 }
 
-/* ══════════════════════════════════════════════
-   HELPERS
-══════════════════════════════════════════════ */
 .hr { border: none; border-top: 1.5px solid var(--border); margin: 1.2rem 0; }
 #MainMenu, footer, header { visibility: hidden; }
 .stSpinner > div > div { border-top-color: var(--mint) !important; }
@@ -541,6 +502,7 @@ def _init():
         'llm_extractor': None,
         'voice_text': None,
         'voice_duration': 0,
+        'text_to_analyze': None,
         'last_nutrition': None,
         'last_entities': None,
         'last_method': None,
@@ -610,6 +572,7 @@ with st.sidebar:
     if st.button("🗑 Effacer l'historique", use_container_width=True):
         st.session_state.db.delete_all()
         st.session_state.voice_text = None
+        st.session_state.text_to_analyze = None
         st.session_state.last_nutrition = None
         st.rerun()
     st.markdown("</div>", unsafe_allow_html=True)
@@ -701,7 +664,7 @@ with col_voice:
 
     st.markdown("</div>", unsafe_allow_html=True)
 
-# ─── Colonne TEXTE ────────────────────────────────────────────────────────────
+# ─── Colonne TEXTE (CORRIGEE) ─────────────────────────────────────────────────
 with col_text:
     st.markdown("""
     <div class="panel">
@@ -716,33 +679,53 @@ with col_text:
         placeholder="أكلت نصف بيتزا وشربت كوب حليب…",
         height=108,
         label_visibility="collapsed",
+        key="text_input_area"
     )
     st.caption("✍ Écrivez en arabe · Exemples dans l'onglet ci-dessous")
 
+    # Bouton analyse
     if st.button("Analyser le texte →", use_container_width=True, key="btn_text_analyze"):
-        if not text_input.strip():
+        if not text_input or not text_input.strip():
             st.warning("Veuillez saisir un texte.")
         else:
-            with st.spinner("Analyse NER…"):
-                try:
-                    if extraction_method == "spaCy":
-                        entities, nutrition, proc_time = st.session_state.spacy_extractor.process(text_input)
-                        method = "spaCy"
-                    else:
-                        if not st.session_state.llm_extractor:
-                            st.error("Saisir la clé OpenAI")
-                            st.stop()
-                        entities, nutrition, proc_time = st.session_state.llm_extractor.process(text_input)
-                        method = "LLM"
+            # Stocker dans session_state pour traitement apres rerun
+            st.session_state.text_to_analyze = clean_arabic_text(text_input)
+            st.rerun()
 
-                    st.session_state.db.save_meal(text_input, nutrition, method, is_voice=False)
-                    st.session_state.db.log_performance(method, proc_time, 0, len(entities.get("foods", [])))
-                    st.session_state.last_nutrition = nutrition
-                    st.session_state.last_entities = entities
-                    st.session_state.last_method = method
-                    st.rerun()
-                except Exception as e:
-                    st.markdown(f'<span class="pill pill-error">❌ {e}</span>', unsafe_allow_html=True)
+    # Traitement du texte (apres rerun)
+    if st.session_state.text_to_analyze:
+        with st.spinner("Analyse en cours..."):
+            try:
+                txt = st.session_state.text_to_analyze
+                
+                if extraction_method == "spaCy":
+                    entities, nutrition, proc_time = st.session_state.spacy_extractor.process(txt)
+                    method = "spaCy"
+                else:
+                    if not st.session_state.llm_extractor:
+                        st.error("Saisir la clé OpenAI")
+                        st.session_state.text_to_analyze = None
+                        st.stop()
+                    entities, nutrition, proc_time = st.session_state.llm_extractor.process(txt)
+                    method = "LLM"
+
+                # Sauvegarde
+                st.session_state.db.save_meal(txt, nutrition, method, is_voice=False)
+                st.session_state.db.log_performance(method, proc_time, 0, len(entities.get("foods", [])))
+                
+                # Stocker les resultats
+                st.session_state.last_nutrition = nutrition
+                st.session_state.last_entities = entities
+                st.session_state.last_method = method
+                
+                # Reset
+                st.session_state.text_to_analyze = None
+                
+                st.rerun()
+                
+            except Exception as e:
+                st.error(f"Erreur: {str(e)}")
+                st.session_state.text_to_analyze = None
 
     st.markdown("</div>", unsafe_allow_html=True)
 
@@ -856,7 +839,7 @@ with tab2:
             paper_bgcolor="rgba(0,0,0,0)",
             plot_bgcolor="rgba(0,0,0,0)",
             font=dict(family="Bricolage Grotesque", color="#7A9478"),
-            title_font=dict(family="Bricolage Grotesque", color="#0F1F0E", size=15, weight=700),
+            title_font=dict(family="Bricolage Grotesque", color="#0F1F0E", size=15),
             xaxis=dict(showgrid=False, color="#7A9478"),
             yaxis=dict(showgrid=True, gridcolor="#D8EDCC", color="#7A9478"),
             margin=dict(t=45, b=20, l=0, r=0),
@@ -874,7 +857,7 @@ with tab2:
         fig_pie.update_layout(
             paper_bgcolor="rgba(0,0,0,0)",
             font=dict(family="Bricolage Grotesque", color="#7A9478"),
-            title_font=dict(family="Bricolage Grotesque", color="#0F1F0E", size=15, weight=700),
+            title_font=dict(family="Bricolage Grotesque", color="#0F1F0E", size=15),
             legend=dict(orientation="h", x=0.5, xanchor="center", y=-0.08),
             margin=dict(t=45, b=20),
         )
@@ -916,6 +899,6 @@ with tab3:
 st.markdown("""
 <div style="text-align:center;padding:2.5rem 0 1.2rem;color:#B8D4B0;
             font-size:.7rem;letter-spacing:.12em;font-weight:500;">
-    🥑 &nbsp;VOICE-TO-CALORIE &nbsp;·&nbsp; Arabic NLP Nutrition Tracker &nbsp;·&nbsp; Powered by AI
+    🥑 VOICE-TO-CALORIE · Arabic NLP Nutrition Tracker · Powered by AI
 </div>
 """, unsafe_allow_html=True)
