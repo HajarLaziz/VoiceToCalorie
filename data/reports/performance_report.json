@@ -1,0 +1,12 @@
+{
+  "spacy": {
+    "avg_time": 1.0205507278442383,
+    "avg_calories": 184.65,
+    "avg_foods": 1.0
+  },
+  "llm": {
+    "avg_time": 0,
+    "avg_calories": 192.9,
+    "avg_foods": 1.0
+  }
+}

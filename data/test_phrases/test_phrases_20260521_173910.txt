@@ -1,0 +1,559 @@
+PHRASES DE TEST POUR VOICE-TO-CALORIE
+============================================================
+Date: 2026-05-21 17:39:10
+Total: 100 phrases
+
+1. Phrase: شربت الكمثري
+   Aliments: الكمثري
+   Calories attendues: 195.0 kcal
+   Type: simple
+
+2. Phrase: اكلت كوب كبير الكاكاو بالإضافه الي ثلاثه ساق الخام مع كمية قليلة حليب خالي الدسم
+   Aliments: الكاكاو, ساق الخام, حليب خالي الدسم
+   Quantites: كوب كبير, ثلاثه, كمية قليلة
+   Calories attendues: 428.5 kcal
+   Type: quantity_multi
+
+3. Phrase: تذوقت طبق صغير حساء البازلاء و ثلث زبادي بالاضافة الي 1 سلطه خضراء
+   Aliments: حساء البازلاء, زبادي, سلطه خضراء
+   Quantites: طبق صغير, ثلث, 1
+   Calories attendues: 148.0 kcal
+   Type: quantity_multi
+
+4. Phrase: اكلت تمر و عصير برتقال مع فراوله بالإضافه الي عصير برتقال
+   Aliments: تمر, عصير برتقال, فراوله, عصير برتقال
+   Calories attendues: 652.0 kcal
+   Type: multi
+
+5. Phrase: شربت ليما، جافه، مطبوخه
+   Aliments: ليما، جافه، مطبوخه
+   Calories attendues: 260.0 kcal
+   Type: simple
+
+6. Phrase: اكلت قليلا تين معلب مع شراب بالإضافه الي نصف براعم بروكسل بالإضافه الي طبق متوسط صلصه الف جزيره
+   Aliments: تين معلب مع شراب, براعم بروكسل, صلصه الف جزيره
+   Quantites: قليلا, نصف, طبق متوسط
+   Calories attendues: 144.0 kcal
+   Type: quantity_multi
+
+7. Phrase: اكلت كمية قليلة حريره
+   Aliments: حريره
+   Quantites: كمية قليلة
+   Calories attendues: 45.0 kcal
+   Type: complex
+
+8. Phrase: طلب ثلث كسكس باللحم
+   Aliments: كسكس باللحم
+   Quantites: ثلث
+   Calories attendues: 115.5 kcal
+   Type: complex
+
+9. Phrase: تذوقت بيض بالإضافه الي موز مع بعض ارز بالاضافة الي برتقال
+   Aliments: بيض, موز, ارز, برتقال
+   Calories attendues: 434.0 kcal
+   Type: multi
+
+10. Phrase: شربت كسكس بالاضافة الي جزر
+   Aliments: كسكس, جزر
+   Calories attendues: 157.0 kcal
+   Type: multi
+
+11. Phrase: اكلت قليلا كاسترد بالاضافة الي قليلا لحم خروف
+   Aliments: كاسترد, لحم خروف
+   Quantites: قليلا, قليلا
+   Calories attendues: 229.5 kcal
+   Type: quantity_multi
+
+12. Phrase: تناولت الهندباء الخضراء
+   Aliments: الهندباء الخضراء
+   Calories attendues: 80.0 kcal
+   Type: simple
+
+13. Phrase: اكلت طبق صغير تين معلب مع شراب
+   Aliments: تين معلب مع شراب
+   Quantites: طبق صغير
+   Calories attendues: 91.0 kcal
+   Type: quantity
+
+14. Phrase: اكلت كمية كبيرة هامبرغر و كمية كبيرة عصير برتقال
+   Aliments: هامبرغر, عصير برتقال
+   Quantites: كمية كبيرة, كمية كبيرة
+   Calories attendues: 435.0 kcal
+   Type: quantity_multi
+
+15. Phrase: اكلت كمية كبيرة حليب بودره بالإضافه الي ربع الفطاير و خمسه الافوكادو
+   Aliments: حليب بودره, الفطاير, الافوكادو
+   Quantites: كمية كبيرة, ربع, خمسه
+   Calories attendues: 1757.5 kcal
+   Type: quantity_multi
+
+16. Phrase: تذوقت كمية قليلة فارينا
+   Aliments: فارينا
+   Quantites: كمية قليلة
+   Calories attendues: 31.5 kcal
+   Type: quantity
+
+17. Phrase: تناولت نصف المجمده
+   Aliments: المجمده
+   Quantites: نصف
+   Calories attendues: 165.0 kcal
+   Type: quantity
+
+18. Phrase: تذوقت قليلا البرسيمون بالإضافه الي كمية قليلة قمح منتفخ محلي مسبقاً
+   Aliments: البرسيمون, قمح منتفخ محلي مسبقاً
+   Quantites: قليلا, كمية قليلة
+   Calories attendues: 54.0 kcal
+   Type: quantity_multi
+
+19. Phrase: شربت طبق متوسط شاد
+   Aliments: شاد
+   Quantites: طبق متوسط
+   Calories attendues: 170.0 kcal
+   Type: quantity
+
+20. Phrase: تناولت كمية كبيرة تونه
+   Aliments: تونه
+   Quantites: كمية كبيرة
+   Calories attendues: 276.0 kcal
+   Type: quantity
+
+21. Phrase: تناولت 5 كاتشب طماطم
+   Aliments: كاتشب طماطم
+   Quantites: 5
+   Calories attendues: 75.0 kcal
+   Type: quantity
+
+22. Phrase: حضرت شوربه خضار
+   Aliments: شوربه خضار
+   Calories attendues: 80.0 kcal
+   Type: complex
+
+23. Phrase: تناولت ربع الخام، مقطعه الي مكعبات
+   Aliments: الخام، مقطعه الي مكعبات
+   Quantites: ربع
+   Calories attendues: 18.8 kcal
+   Type: quantity
+
+24. Phrase: شربت طاجين دجاج بالإضافه الي شباكيه و كعكه
+   Aliments: طاجين دجاج, شباكيه, كعكه
+   Calories attendues: 1050.0 kcal
+   Type: multi
+
+25. Phrase: اكلت طبق كبير بيض
+   Aliments: بيض
+   Quantites: طبق كبير
+   Calories attendues: 201.5 kcal
+   Type: quantity
+
+26. Phrase: اكلت كوب كبير كسكس باللحم
+   Aliments: كسكس باللحم
+   Quantites: كوب كبير
+   Calories attendues: 455.0 kcal
+   Type: complex
+
+27. Phrase: شربت موز مع بعض خيار بالاضافة الي حريره
+   Aliments: موز, خيار, حريره
+   Calories attendues: 254.0 kcal
+   Type: multi
+
+28. Phrase: تناولت 5 الهندباء و نصف معكرونه
+   Aliments: الهندباء, معكرونه
+   Quantites: 5, نصف
+   Calories attendues: 115.5 kcal
+   Type: quantity_multi
+
+29. Phrase: اكلت مرق
+   Aliments: مرق
+   Calories attendues: 24.0 kcal
+   Type: simple
+
+30. Phrase: شربت نصف لحم خنزير مع بعض طبق كبير ماكدوبل
+   Aliments: لحم خنزير, ماكدوبل
+   Quantites: نصف, طبق كبير
+   Calories attendues: 729.0 kcal
+   Type: quantity_multi
+
+31. Phrase: شربت 5 بَقدونس بالإضافه الي ربع الكلي الحمراء
+   Aliments: بَقدونس, الكلي الحمراء
+   Quantites: 5, ربع
+   Calories attendues: 67.5 kcal
+   Type: quantity_multi
+
+32. Phrase: شربت مشروب غازي بالاضافة الي تمر مع بيض مع بعض تفاحه
+   Aliments: مشروب غازي, تمر, بيض, تفاحه
+   Calories attendues: 534.0 kcal
+   Type: multi
+
+33. Phrase: تناولت سمك و ديك رومي مع حريره مع جبن
+   Aliments: سمك, ديك رومي, حريره, جبن
+   Calories attendues: 965.0 kcal
+   Type: multi
+
+34. Phrase: تناولت قليلا شوربه خضار
+   Aliments: شوربه خضار
+   Quantites: قليلا
+   Calories attendues: 24.0 kcal
+   Type: complex
+
+35. Phrase: تذوقت الفراوله
+   Aliments: الفراوله
+   Calories attendues: 242.0 kcal
+   Type: simple
+
+36. Phrase: تذوقت حساء البطلينوس
+   Aliments: حساء البطلينوس
+   Calories attendues: 85.0 kcal
+   Type: simple
+
+37. Phrase: طلب كوب صغير شوربه خضار
+   Aliments: شوربه خضار
+   Quantites: كوب صغير
+   Calories attendues: 56.0 kcal
+   Type: complex
+
+38. Phrase: اكلت طبق صغير اللوز
+   Aliments: اللوز
+   Quantites: طبق صغير
+   Calories attendues: 297.5 kcal
+   Type: quantity
+
+39. Phrase: شربت عسل مع برتقال
+   Aliments: عسل, برتقال
+   Calories attendues: 364.0 kcal
+   Type: multi
+
+40. Phrase: اكلت 2 بطيخ
+   Aliments: بطيخ
+   Quantites: 2
+   Calories attendues: 240.0 kcal
+   Type: quantity
+
+41. Phrase: تناولت ارز و لحم بقر
+   Aliments: ارز, لحم بقر
+   Calories attendues: 375.0 kcal
+   Type: multi
+
+42. Phrase: اكلت طبق صغير ستيك
+   Aliments: ستيك
+   Quantites: طبق صغير
+   Calories attendues: 231.0 kcal
+   Type: quantity
+
+43. Phrase: تناولت ديك رومي بالاضافة الي شوربه خضار مع بعض برتقال مع عصير برتقال
+   Aliments: ديك رومي, شوربه خضار, برتقال, عصير برتقال
+   Calories attendues: 450.0 kcal
+   Type: multi
+
+44. Phrase: تناولت محمص ومملح
+   Aliments: محمص ومملح
+   Calories attendues: 439.0 kcal
+   Type: simple
+
+45. Phrase: شربت كوب كبير ساق الخام
+   Aliments: ساق الخام
+   Quantites: كوب كبير
+   Calories attendues: 6.5 kcal
+   Type: quantity
+
+46. Phrase: تناولت عصير برتقال مع بعض بسكويت
+   Aliments: عصير برتقال, بسكويت
+   Calories attendues: 545.0 kcal
+   Type: multi
+
+47. Phrase: اكلت كسكس باللحم
+   Aliments: كسكس باللحم
+   Calories attendues: 350.0 kcal
+   Type: simple
+
+48. Phrase: تناولت حريره
+   Aliments: حريره
+   Calories attendues: 150.0 kcal
+   Type: complex
+
+49. Phrase: تناولت حريره
+   Aliments: حريره
+   Calories attendues: 150.0 kcal
+   Type: complex
+
+50. Phrase: طلب طبق صغير كسكس باللحم
+   Aliments: كسكس باللحم
+   Quantites: طبق صغير
+   Calories attendues: 245.0 kcal
+   Type: complex
+
+51. Phrase: اكلت كاتشب طماطم
+   Aliments: كاتشب طماطم
+   Calories attendues: 15.0 kcal
+   Type: simple
+
+52. Phrase: تناولت كسكس باللحم
+   Aliments: كسكس باللحم
+   Calories attendues: 350.0 kcal
+   Type: complex
+
+53. Phrase: تذوقت ربع جزر
+   Aliments: جزر
+   Quantites: ربع
+   Calories attendues: 11.2 kcal
+   Type: quantity
+
+54. Phrase: اكلت كمية قليلة ابيض
+   Aliments: ابيض
+   Quantites: كمية قليلة
+   Calories attendues: 207.6 kcal
+   Type: quantity
+
+55. Phrase: اكلت عسل بالإضافه الي بسكويت بالاضافة الي شباكيه و ارز
+   Aliments: عسل, بسكويت, شباكيه, ارز
+   Calories attendues: 1354.0 kcal
+   Type: multi
+
+56. Phrase: تناولت ديك رومي مع حريره بالإضافه الي سبانخ بالاضافة الي ارز
+   Aliments: ديك رومي, حريره, سبانخ, ارز
+   Calories attendues: 571.0 kcal
+   Type: multi
+
+57. Phrase: طلب كوب كبير كسكس باللحم
+   Aliments: كسكس باللحم
+   Quantites: كوب كبير
+   Calories attendues: 455.0 kcal
+   Type: complex
+
+58. Phrase: حضرت حريره
+   Aliments: حريره
+   Calories attendues: 150.0 kcal
+   Type: complex
+
+59. Phrase: اكلت ربع تذوب القرفه
+   Aliments: تذوب القرفه
+   Quantites: ربع
+   Calories attendues: 115.0 kcal
+   Type: quantity
+
+60. Phrase: حضرت 3 كسكس باللحم
+   Aliments: كسكس باللحم
+   Quantites: 3
+   Calories attendues: 1050.0 kcal
+   Type: complex
+
+61. Phrase: شربت 3 كولرابي
+   Aliments: كولرابي
+   Quantites: 3
+   Calories attendues: 120.0 kcal
+   Type: quantity
+
+62. Phrase: تذوقت اربعه الجدول يمزج السكر
+   Aliments: الجدول يمزج السكر
+   Quantites: اربعه
+   Calories attendues: 27.5 kcal
+   Type: quantity
+
+63. Phrase: تذوقت بعض جبن شيدر
+   Aliments: جبن شيدر
+   Quantites: بعض
+   Calories attendues: 35.0 kcal
+   Type: quantity
+
+64. Phrase: اكلت كسكس مع بعض مسمن بالإضافه الي بسكويت بالإضافه الي بيض
+   Aliments: كسكس, مسمن, بسكويت, بيض
+   Calories attendues: 1047.0 kcal
+   Type: multi
+
+65. Phrase: تذوقت سبانخ بالاضافة الي لحم بقر مع لحم بالإضافه الي عصير برتقال
+   Aliments: سبانخ, لحم بقر, لحم, عصير برتقال
+   Calories attendues: 566.0 kcal
+   Type: multi
+
+66. Phrase: تناولت شوربه خضار
+   Aliments: شوربه خضار
+   Calories attendues: 80.0 kcal
+   Type: simple
+
+67. Phrase: شربت 3 كعك بالاضافة الي بعض مرق
+   Aliments: كعك, مرق
+   Quantites: 3, بعض
+   Calories attendues: 342.0 kcal
+   Type: quantity_multi
+
+68. Phrase: اكلت زيت ذره
+   Aliments: زيت ذره
+   Calories attendues: 125.0 kcal
+   Type: simple
+
+69. Phrase: تذوقت ثلث تخبط
+   Aliments: تخبط
+   Quantites: ثلث
+   Calories attendues: 66.0 kcal
+   Type: quantity
+
+70. Phrase: اكلت كوب صغير الخوخ مع ربع بيتزا
+   Aliments: الخوخ, بيتزا
+   Quantites: كوب صغير, ربع
+   Calories attendues: 211.2 kcal
+   Type: quantity_multi
+
+71. Phrase: شربت صلصه الف جزيره
+   Aliments: صلصه الف جزيره
+   Calories attendues: 75.0 kcal
+   Type: simple
+
+72. Phrase: تذوقت بصل مع بعض تمر بالإضافه الي فراوله مع ديك رومي
+   Aliments: بصل, تمر, فراوله, ديك رومي
+   Calories attendues: 907.0 kcal
+   Type: multi
+
+73. Phrase: تناولت ربع سمك مملح
+   Aliments: سمك مملح
+   Quantites: ربع
+   Calories attendues: 52.8 kcal
+   Type: quantity
+
+74. Phrase: اكلت طاجين دجاج
+   Aliments: طاجين دجاج
+   Calories attendues: 280.0 kcal
+   Type: complex
+
+75. Phrase: تذوقت ربع سردين
+   Aliments: سردين
+   Quantites: ربع
+   Calories attendues: 45.0 kcal
+   Type: quantity
+
+76. Phrase: شربت نصف يومي مزدوج بالإضافه الي كوب صغير خضروات بالاضافة الي ثلث قهوه
+   Aliments: يومي مزدوج, خضروات, قهوه
+   Quantites: نصف, كوب صغير, ثلث
+   Calories attendues: 271.7 kcal
+   Type: quantity_multi
+
+77. Phrase: اكلت طبق صغير ارز بالإضافه الي كمية قليلة عادي، مع عدم وجود الجليد مع بعض 4 روتاباجاس
+   Aliments: ارز, عادي، مع عدم وجود الجليد, روتاباجاس
+   Quantites: طبق صغير, كمية قليلة, 4
+   Calories attendues: 273.0 kcal
+   Type: quantity_multi
+
+78. Phrase: اكلت كمية كبيرة ماكريب بالاضافة الي كمية قليلة كريمه بالاضافة الي كمية قليلة جبن
+   Aliments: ماكريب, كريمه, جبن
+   Quantites: كمية كبيرة, كمية قليلة, كمية قليلة
+   Calories attendues: 906.0 kcal
+   Type: quantity_multi
+
+79. Phrase: تذوقت هالابينو دبل
+   Aliments: هالابينو دبل
+   Calories attendues: 430.0 kcal
+   Type: simple
+
+80. Phrase: تذوقت مشروب غازي بالاضافة الي دجاج و لحم
+   Aliments: مشروب غازي, دجاج, لحم
+   Calories attendues: 460.0 kcal
+   Type: multi
+
+81. Phrase: تذوقت قليلا طازج بالاضافة الي ثلث الشمندر مع ثلث الشتاء، المهروسه
+   Aliments: طازج, الشمندر, الشتاء، المهروسه
+   Quantites: قليلا, ثلث, ثلث
+   Calories attendues: 48.2 kcal
+   Type: quantity_multi
+
+82. Phrase: اكلت كعكه و حليب مع بعض طماطم و كسكس باللحم
+   Aliments: كعكه, حليب, طماطم, كسكس باللحم
+   Calories attendues: 760.0 kcal
+   Type: multi
+
+83. Phrase: تذوقت الفراوله
+   Aliments: الفراوله
+   Calories attendues: 242.0 kcal
+   Type: simple
+
+84. Phrase: تناولت طبق صغير ارز
+   Aliments: ارز
+   Quantites: طبق صغير
+   Calories attendues: 91.0 kcal
+   Type: quantity
+
+85. Phrase: تذوقت شرك
+   Aliments: شرك
+   Calories attendues: 70.0 kcal
+   Type: simple
+
+86. Phrase: تذوقت خمسه فاصوليا
+   Aliments: فاصوليا
+   Quantites: خمسه
+   Calories attendues: 125.0 kcal
+   Type: quantity
+
+87. Phrase: تناولت كمية قليلة قرع بالإضافه الي كوب كبير محار مع طبق كبير الكرز
+   Aliments: قرع, محار, الكرز
+   Quantites: كمية قليلة, كوب كبير, طبق كبير
+   Calories attendues: 440.8 kcal
+   Type: quantity_multi
+
+88. Phrase: تناولت دجاج بالإضافه الي كسكس باللحم مع شاي
+   Aliments: دجاج, كسكس باللحم, شاي
+   Calories attendues: 516.0 kcal
+   Type: multi
+
+89. Phrase: شربت سردين
+   Aliments: سردين
+   Calories attendues: 180.0 kcal
+   Type: simple
+
+90. Phrase: تناولت كوب صغير شوربه خضار
+   Aliments: شوربه خضار
+   Quantites: كوب صغير
+   Calories attendues: 56.0 kcal
+   Type: complex
+
+91. Phrase: تناولت بازلاء
+   Aliments: بازلاء
+   Calories attendues: 66.0 kcal
+   Type: simple
+
+92. Phrase: اكلت الكاكاو
+   Aliments: الكاكاو
+   Calories attendues: 235.0 kcal
+   Type: simple
+
+93. Phrase: اكلت بيضه مسلوقه
+   Aliments: بيضه مسلوقه
+   Calories attendues: 78.0 kcal
+   Type: simple
+
+94. Phrase: اكلت بصل مع بعض حريره
+   Aliments: بصل, حريره
+   Calories attendues: 230.0 kcal
+   Type: multi
+
+95. Phrase: تذوقت نصف سمكه الهلبوت
+   Aliments: سمكه الهلبوت
+   Quantites: نصف
+   Calories attendues: 91.0 kcal
+   Type: quantity
+
+96. Phrase: اكلت نصف الخوخ
+   Aliments: الخوخ
+   Quantites: نصف
+   Calories attendues: 100.0 kcal
+   Type: quantity
+
+97. Phrase: شربت البقان
+   Aliments: البقان
+   Calories attendues: 343.0 kcal
+   Type: simple
+
+98. Phrase: اكلت كمية قليلة الكاجو بالإضافه الي اثنين العدس
+   Aliments: الكاجو, العدس
+   Quantites: كمية قليلة, اثنين
+   Calories attendues: 541.6 kcal
+   Type: quantity_multi
+
+99. Phrase: تناولت بعض تونه بالإضافه الي قليلا صفار بيض
+   Aliments: تونه, صفار بيض
+   Quantites: بعض, قليلا
+   Calories attendues: 128.0 kcal
+   Type: quantity_multi
+
+100. Phrase: اكلت اربعه الجدول يمزج السكر بالاضافة الي قليلا سلطه طماطم وخيار
+   Aliments: الجدول يمزج السكر, سلطه طماطم وخيار
+   Quantites: اربعه, قليلا
+   Calories attendues: 36.5 kcal
+   Type: quantity_multi
+

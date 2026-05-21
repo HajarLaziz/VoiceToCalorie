@@ -1,0 +1,27 @@
+{
+  "date": "20260521_190925",
+  "test_file": "data/test_phrases\\test_phrases_20260521_173910.json",
+  "ground_truth_size": 98,
+  "spacy": {
+    "precision": 0.7226890756302521,
+    "recall": 1.0,
+    "f1_score": 0.8390243902439024,
+    "quantity_accuracy": 0.9814814814814815,
+    "avg_time_ms": 0.052529938366948345,
+    "avg_calorie_error": 121.1357142857143,
+    "true_positives": 172,
+    "false_positives": 66,
+    "false_negatives": 0
+  },
+  "llm": {
+    "precision": 0.5404040404040404,
+    "recall": 0.622093023255814,
+    "f1_score": 0.5783783783783785,
+    "quantity_accuracy": 0.0,
+    "avg_time_ms": 1669.8656276780732,
+    "avg_calorie_error": 273.20918367346934,
+    "true_positives": 107,
+    "false_positives": 91,
+    "false_negatives": 65
+  }
+}
