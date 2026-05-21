@@ -1,0 +1,617 @@
+{
+  "date": "2026-05-21T17:09:32.918467",
+  "source_file": "data/nutrition_db.py",
+  "backup_file": "data/backups\\nutrition_db_backup_20260521_170932.py",
+  "statistics": {
+    "original_count": 307,
+    "final_count": 290,
+    "duplicates_removed": 16,
+    "invalid_entries_removed": 0,
+    "normalized_names": [
+      {
+        "original": "سلطة خضراء",
+        "normalized": "سلطه خضراء"
+      },
+      {
+        "original": "سلطة طماطم وخيار",
+        "normalized": "سلطه طماطم وخيار"
+      },
+      {
+        "original": "بطاطس مقلية",
+        "normalized": "بطاطس مقليه"
+      },
+      {
+        "original": "تونة",
+        "normalized": "تونه"
+      },
+      {
+        "original": "بيضة مسلوقة",
+        "normalized": "بيضه مسلوقه"
+      },
+      {
+        "original": "بيضة مقلية",
+        "normalized": "بيضه مقليه"
+      },
+      {
+        "original": "شريحة خبز",
+        "normalized": "شريحه خبز"
+      },
+      {
+        "original": "أرز",
+        "normalized": "ارز"
+      },
+      {
+        "original": "معكرونة",
+        "normalized": "معكرونه"
+      },
+      {
+        "original": "حريرة",
+        "normalized": "حريره"
+      },
+      {
+        "original": "شوربة خضار",
+        "normalized": "شوربه خضار"
+      },
+      {
+        "original": "تفاحة",
+        "normalized": "تفاحه"
+      },
+      {
+        "original": "فاكهة",
+        "normalized": "فاكهه"
+      },
+      {
+        "original": "قهوة",
+        "normalized": "قهوه"
+      },
+      {
+        "original": "زبدة",
+        "normalized": "زبده"
+      },
+      {
+        "original": "كعكة",
+        "normalized": "كعكه"
+      },
+      {
+        "original": "شباكية",
+        "normalized": "شباكيه"
+      },
+      {
+        "original": "شطيرة تونة",
+        "normalized": "شطيره تونه"
+      },
+      {
+        "original": "شطيرة دجاج",
+        "normalized": "شطيره دجاج"
+      },
+      {
+        "original": "حليب بودرة",
+        "normalized": "حليب بودره"
+      },
+      {
+        "original": "المقشود، لحظة",
+        "normalized": "المقشود، لحظه"
+      },
+      {
+        "original": "المقشود، غير الفورية",
+        "normalized": "المقشود، غير الفوريه"
+      },
+      {
+        "original": "آيس كريم",
+        "normalized": "ايس كريم"
+      },
+      {
+        "original": "ذرة",
+        "normalized": "ذره"
+      },
+      {
+        "original": "كريمة",
+        "normalized": "كريمه"
+      },
+      {
+        "original": "أو الجلد",
+        "normalized": "او الجلد"
+      },
+      {
+        "original": "دهون الطبخ المهدرجة",
+        "normalized": "دهون الطبخ المهدرجه"
+      },
+      {
+        "original": "زيت ذرة",
+        "normalized": "زيت ذره"
+      },
+      {
+        "original": "خلع الملابس الفرنسية",
+        "normalized": "خلع الملابس الفرنسيه"
+      },
+      {
+        "original": "صلصة ألف جزيرة",
+        "normalized": "صلصه الف جزيره"
+      },
+      {
+        "original": "وعاء فطيرة",
+        "normalized": "وعاء فطيره"
+      },
+      {
+        "original": "بطة محلية",
+        "normalized": "بطه محليه"
+      },
+      {
+        "original": "الساق مشوية",
+        "normalized": "الساق مشويه"
+      },
+      {
+        "original": "سمكة الهلبوت",
+        "normalized": "سمكه الهلبوت"
+      },
+      {
+        "original": "سمك الأسقمري البحري",
+        "normalized": "سمك الاسقمري البحري"
+      },
+      {
+        "original": "ليما، جافة، مطبوخة",
+        "normalized": "ليما، جافه، مطبوخه"
+      },
+      {
+        "original": "الكلى الحمراء",
+        "normalized": "الكلي الحمراء"
+      },
+      {
+        "original": "البنجر الأخضر",
+        "normalized": "البنجر الاخضر"
+      },
+      {
+        "original": "شرائط من الخام",
+        "normalized": "شرايط من الخام"
+      },
+      {
+        "original": "مطبوخة أو معلبة",
+        "normalized": "مطبوخه او معلبه"
+      },
+      {
+        "original": "البامية",
+        "normalized": "الباميه"
+      },
+      {
+        "original": "خام، أخضر",
+        "normalized": "خام، اخضر"
+      },
+      {
+        "original": "الجزر الأبيض",
+        "normalized": "الجزر الابيض"
+      },
+      {
+        "original": "فلفل نيء، أخضر، حلو",
+        "normalized": "فلفل نيء، اخضر، حلو"
+      },
+      {
+        "original": "الشتاء، المهروسة",
+        "normalized": "الشتاء، المهروسه"
+      },
+      {
+        "original": "الخام، 2 بنسبة 2 1/2",
+        "normalized": "الخام، 2 بنسبه 2 1/2"
+      },
+      {
+        "original": "اللفت الأخضر",
+        "normalized": "اللفت الاخضر"
+      },
+      {
+        "original": "مطهية أو معلبة",
+        "normalized": "مطهيه او معلبه"
+      },
+      {
+        "original": "المجففة وغير المطبوخة",
+        "normalized": "المجففه وغير المطبوخه"
+      },
+      {
+        "original": "الأفوكادو",
+        "normalized": "الافوكادو"
+      },
+      {
+        "original": "شجر العليق - أجهزة البلاك بيري",
+        "normalized": "شجر العليق - اجهزه البلاك بيري"
+      },
+      {
+        "original": "طازجة وخام",
+        "normalized": "طازجه وخام"
+      },
+      {
+        "original": "صلصة التوت البري المحلاة",
+        "normalized": "صلصه التوت البري المحلاه"
+      },
+      {
+        "original": "أقسام الجريب فروت",
+        "normalized": "اقسام الجريب فروت"
+      },
+      {
+        "original": "جريب فروت، طازج، قطر 5 بوصة",
+        "normalized": "جريب فروت، طازج، قطر 5 بوصه"
+      },
+      {
+        "original": "الأوروبية، كما مسقط، توكاي",
+        "normalized": "الاوروبيه، كما مسقط، توكاي"
+      },
+      {
+        "original": "المجمدة",
+        "normalized": "المجمده"
+      },
+      {
+        "original": "الكمثرى",
+        "normalized": "الكمثري"
+      },
+      {
+        "original": "الخام، مقطعة إلى مكعبات",
+        "normalized": "الخام، مقطعه الي مكعبات"
+      },
+      {
+        "original": "خام، قطر 2 بوصة",
+        "normalized": "خام، قطر 2 بوصه"
+      },
+      {
+        "original": "خام، أحمر",
+        "normalized": "خام، احمر"
+      },
+      {
+        "original": "راوند محلى",
+        "normalized": "راوند محلي"
+      },
+      {
+        "original": "الفراولة",
+        "normalized": "الفراوله"
+      },
+      {
+        "original": "رقائق النخالة",
+        "normalized": "رقايق النخاله"
+      },
+      {
+        "original": "أبيض، 20 شريحة، أو",
+        "normalized": "ابيض، 20 شريحه، او"
+      },
+      {
+        "original": "فطائر بقطر 4 بوصة.",
+        "normalized": "فطاير بقطر 4 بوصه."
+      },
+      {
+        "original": "قمح، فطائر بقطر 4 بوصة.",
+        "normalized": "قمح، فطاير بقطر 4 بوصه."
+      },
+      {
+        "original": "بيتزا بقطر 14 بوصة.",
+        "normalized": "بيتزا بقطر 14 بوصه."
+      },
+      {
+        "original": "أرز منتفخ",
+        "normalized": "ارز منتفخ"
+      },
+      {
+        "original": "قمح منتفخ محلى مسبقاً",
+        "normalized": "قمح منتفخ محلي مسبقاً"
+      },
+      {
+        "original": "أبيض",
+        "normalized": "ابيض"
+      },
+      {
+        "original": "رقائق الأرز",
+        "normalized": "رقايق الارز"
+      },
+      {
+        "original": "تلميع الأرز",
+        "normalized": "تلميع الارز"
+      },
+      {
+        "original": "سباجيتي بصلصة اللحم",
+        "normalized": "سباجيتي بصلصه اللحم"
+      },
+      {
+        "original": "أرز اسباني",
+        "normalized": "ارز اسباني"
+      },
+      {
+        "original": "الفطائر",
+        "normalized": "الفطاير"
+      },
+      {
+        "original": "حبوب جنين القمح المحمصة",
+        "normalized": "حبوب جنين القمح المحمصه"
+      },
+      {
+        "original": "حبوب القمح غير المكررة",
+        "normalized": "حبوب القمح غير المكرره"
+      },
+      {
+        "original": "المعكرونة",
+        "normalized": "المعكرونه"
+      },
+      {
+        "original": "كعكة الفاكهة",
+        "normalized": "كعكه الفاكهه"
+      },
+      {
+        "original": "كعكة اسفنجية",
+        "normalized": "كعكه اسفنجيه"
+      },
+      {
+        "original": "حلوى",
+        "normalized": "حلوي"
+      },
+      {
+        "original": "الحلوى الصلبة",
+        "normalized": "الحلوي الصلبه"
+      },
+      {
+        "original": "مربى",
+        "normalized": "مربي"
+      },
+      {
+        "original": "9قطر.فطيرة",
+        "normalized": "9قطر.فطيره"
+      },
+      {
+        "original": "فطيرة الكرز",
+        "normalized": "فطيره الكرز"
+      },
+      {
+        "original": "فطيرة اليقطين",
+        "normalized": "فطيره اليقطين"
+      },
+      {
+        "original": "سكر بني داكن ومعبأ بشكل متماسك",
+        "normalized": "سكر بني داكن ومعبا بشكل متماسك"
+      },
+      {
+        "original": "جوز الهند المحلى",
+        "normalized": "جوز الهند المحلي"
+      },
+      {
+        "original": "جعة",
+        "normalized": "جعه"
+      },
+      {
+        "original": "بيرة الجذر",
+        "normalized": "بيره الجذر"
+      },
+      {
+        "original": "فرحة البيض الأبيض",
+        "normalized": "فرحه البيض الابيض"
+      },
+      {
+        "original": "تذوب القرفة",
+        "normalized": "تذوب القرفه"
+      },
+      {
+        "original": "سلطة",
+        "normalized": "سلطه"
+      },
+      {
+        "original": "مثلجات الفدج الساخنة",
+        "normalized": "مثلجات الفدج الساخنه"
+      },
+      {
+        "original": "حلوى الكراميل الساخنة",
+        "normalized": "حلوي الكراميل الساخنه"
+      },
+      {
+        "original": "فراولة",
+        "normalized": "فراوله"
+      },
+      {
+        "original": "ماك فلوري مع حلوى إم آند إمز",
+        "normalized": "ماك فلوري مع حلوي ام اند امز"
+      },
+      {
+        "original": "ماك فلوري مع كوكيز الأوريو",
+        "normalized": "ماك فلوري مع كوكيز الاوريو"
+      },
+      {
+        "original": "ماك فلوري مع كوكيز أوريو",
+        "normalized": "ماك فلوري مع كوكيز اوريو"
+      }
+    ],
+    "errors": []
+  },
+  "normalized_names": [
+    {
+      "original": "سلطة خضراء",
+      "normalized": "سلطه خضراء"
+    },
+    {
+      "original": "سلطة طماطم وخيار",
+      "normalized": "سلطه طماطم وخيار"
+    },
+    {
+      "original": "بطاطس مقلية",
+      "normalized": "بطاطس مقليه"
+    },
+    {
+      "original": "تونة",
+      "normalized": "تونه"
+    },
+    {
+      "original": "بيضة مسلوقة",
+      "normalized": "بيضه مسلوقه"
+    },
+    {
+      "original": "بيضة مقلية",
+      "normalized": "بيضه مقليه"
+    },
+    {
+      "original": "شريحة خبز",
+      "normalized": "شريحه خبز"
+    },
+    {
+      "original": "أرز",
+      "normalized": "ارز"
+    },
+    {
+      "original": "معكرونة",
+      "normalized": "معكرونه"
+    },
+    {
+      "original": "حريرة",
+      "normalized": "حريره"
+    },
+    {
+      "original": "شوربة خضار",
+      "normalized": "شوربه خضار"
+    },
+    {
+      "original": "تفاحة",
+      "normalized": "تفاحه"
+    },
+    {
+      "original": "فاكهة",
+      "normalized": "فاكهه"
+    },
+    {
+      "original": "قهوة",
+      "normalized": "قهوه"
+    },
+    {
+      "original": "زبدة",
+      "normalized": "زبده"
+    },
+    {
+      "original": "كعكة",
+      "normalized": "كعكه"
+    },
+    {
+      "original": "شباكية",
+      "normalized": "شباكيه"
+    },
+    {
+      "original": "شطيرة تونة",
+      "normalized": "شطيره تونه"
+    },
+    {
+      "original": "شطيرة دجاج",
+      "normalized": "شطيره دجاج"
+    },
+    {
+      "original": "حليب بودرة",
+      "normalized": "حليب بودره"
+    },
+    {
+      "original": "المقشود، لحظة",
+      "normalized": "المقشود، لحظه"
+    },
+    {
+      "original": "المقشود، غير الفورية",
+      "normalized": "المقشود، غير الفوريه"
+    },
+    {
+      "original": "آيس كريم",
+      "normalized": "ايس كريم"
+    },
+    {
+      "original": "ذرة",
+      "normalized": "ذره"
+    },
+    {
+      "original": "كريمة",
+      "normalized": "كريمه"
+    },
+    {
+      "original": "أو الجلد",
+      "normalized": "او الجلد"
+    },
+    {
+      "original": "دهون الطبخ المهدرجة",
+      "normalized": "دهون الطبخ المهدرجه"
+    },
+    {
+      "original": "زيت ذرة",
+      "normalized": "زيت ذره"
+    },
+    {
+      "original": "خلع الملابس الفرنسية",
+      "normalized": "خلع الملابس الفرنسيه"
+    },
+    {
+      "original": "صلصة ألف جزيرة",
+      "normalized": "صلصه الف جزيره"
+    },
+    {
+      "original": "وعاء فطيرة",
+      "normalized": "وعاء فطيره"
+    },
+    {
+      "original": "بطة محلية",
+      "normalized": "بطه محليه"
+    },
+    {
+      "original": "الساق مشوية",
+      "normalized": "الساق مشويه"
+    },
+    {
+      "original": "سمكة الهلبوت",
+      "normalized": "سمكه الهلبوت"
+    },
+    {
+      "original": "سمك الأسقمري البحري",
+      "normalized": "سمك الاسقمري البحري"
+    },
+    {
+      "original": "ليما، جافة، مطبوخة",
+      "normalized": "ليما، جافه، مطبوخه"
+    },
+    {
+      "original": "الكلى الحمراء",
+      "normalized": "الكلي الحمراء"
+    },
+    {
+      "original": "البنجر الأخضر",
+      "normalized": "البنجر الاخضر"
+    },
+    {
+      "original": "شرائط من الخام",
+      "normalized": "شرايط من الخام"
+    },
+    {
+      "original": "مطبوخة أو معلبة",
+      "normalized": "مطبوخه او معلبه"
+    },
+    {
+      "original": "البامية",
+      "normalized": "الباميه"
+    },
+    {
+      "original": "خام، أخضر",
+      "normalized": "خام، اخضر"
+    },
+    {
+      "original": "الجزر الأبيض",
+      "normalized": "الجزر الابيض"
+    },
+    {
+      "original": "فلفل نيء، أخضر، حلو",
+      "normalized": "فلفل نيء، اخضر، حلو"
+    },
+    {
+      "original": "الشتاء، المهروسة",
+      "normalized": "الشتاء، المهروسه"
+    },
+    {
+      "original": "الخام، 2 بنسبة 2 1/2",
+      "normalized": "الخام، 2 بنسبه 2 1/2"
+    },
+    {
+      "original": "اللفت الأخضر",
+      "normalized": "اللفت الاخضر"
+    },
+    {
+      "original": "مطهية أو معلبة",
+      "normalized": "مطهيه او معلبه"
+    },
+    {
+      "original": "المجففة وغير المطبوخة",
+      "normalized": "المجففه وغير المطبوخه"
+    },
+    {
+      "original": "الأفوكادو",
+      "normalized": "الافوكادو"
+    }
+  ],
+  "errors": []
+}
