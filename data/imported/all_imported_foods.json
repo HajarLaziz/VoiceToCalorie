@@ -1,0 +1,5762 @@
+[
+  {
+    "name_english": "Cows' milk",
+    "name_arabic": "حليب البقر",
+    "calories": 660.0,
+    "proteines": 32.0,
+    "glucides": 48.0,
+    "lipides": 40.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Milk skim",
+    "name_arabic": "حليب خالي الدسم",
+    "calories": 360.0,
+    "proteines": 36.0,
+    "glucides": 52.0,
+    "lipides": 0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Buttermilk",
+    "name_arabic": "لبن خاثر",
+    "calories": 127.0,
+    "proteines": 9.0,
+    "glucides": 13.0,
+    "lipides": 5.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Evaporated, undiluted",
+    "name_arabic": "حليب مبخر غير مخفف",
+    "calories": 345.0,
+    "proteines": 16.0,
+    "glucides": 24.0,
+    "lipides": 20.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Fortified milk",
+    "name_arabic": "حليب مدعم",
+    "calories": 1.0,
+    "proteines": 89.0,
+    "glucides": 119.0,
+    "lipides": 42.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Powdered milk",
+    "name_arabic": "حليب بودرة",
+    "calories": 515.0,
+    "proteines": 27.0,
+    "glucides": 39.0,
+    "lipides": 28.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "skim, instant",
+    "name_arabic": "المقشود، لحظة",
+    "calories": 290.0,
+    "proteines": 30.0,
+    "glucides": 42.0,
+    "lipides": 0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "skim, non-instant",
+    "name_arabic": "المقشود، غير الفورية",
+    "calories": 290.0,
+    "proteines": 30.0,
+    "glucides": 42.0,
+    "lipides": 0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Goats' milk",
+    "name_arabic": "حليب الماعز",
+    "calories": 165.0,
+    "proteines": 8.0,
+    "glucides": 11.0,
+    "lipides": 10.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "(1/2 cup ice cream)",
+    "name_arabic": "آيس كريم",
+    "calories": 690.0,
+    "proteines": 24.0,
+    "glucides": 70.0,
+    "lipides": 24.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cocoa",
+    "name_arabic": "الكاكاو",
+    "calories": 235.0,
+    "proteines": 8.0,
+    "glucides": 26.0,
+    "lipides": 11.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "skim. milk",
+    "name_arabic": "حليب",
+    "calories": 128.0,
+    "proteines": 18.0,
+    "glucides": 13.0,
+    "lipides": 4.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "(cornstarch)",
+    "name_arabic": "ذرة",
+    "calories": 275.0,
+    "proteines": 9.0,
+    "glucides": 40.0,
+    "lipides": 10.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Custard",
+    "name_arabic": "كاسترد",
+    "calories": 285.0,
+    "proteines": 13.0,
+    "glucides": 28.0,
+    "lipides": 14.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Ice cream",
+    "name_arabic": "آيس كريم",
+    "calories": 300.0,
+    "proteines": 6.0,
+    "glucides": 29.0,
+    "lipides": 18.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Ice milk",
+    "name_arabic": "حليب",
+    "calories": 275.0,
+    "proteines": 9.0,
+    "glucides": 32.0,
+    "lipides": 10.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cream or half-and-half",
+    "name_arabic": "كريمة",
+    "calories": 170.0,
+    "proteines": 4.0,
+    "glucides": 5.0,
+    "lipides": 15.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "or whipping",
+    "name_arabic": "أو الجلد",
+    "calories": 430.0,
+    "proteines": 2.0,
+    "glucides": 3.0,
+    "lipides": 44.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cheese",
+    "name_arabic": "جبن",
+    "calories": 240.0,
+    "proteines": 30.0,
+    "glucides": 6.0,
+    "lipides": 11.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "uncreamed",
+    "name_arabic": "كريمة",
+    "calories": 195.0,
+    "proteines": 38.0,
+    "glucides": 6.0,
+    "lipides": 0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cheddar",
+    "name_arabic": "جبن شيدر",
+    "calories": 70.0,
+    "proteines": 4.0,
+    "glucides": 0,
+    "lipides": 6.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cheddar, grated cup",
+    "name_arabic": "جبن شيدر",
+    "calories": 226.0,
+    "proteines": 14.0,
+    "glucides": 1.0,
+    "lipides": 19.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cream cheese",
+    "name_arabic": "كريمة",
+    "calories": 105.0,
+    "proteines": 2.0,
+    "glucides": 1.0,
+    "lipides": 11.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Processed cheese",
+    "name_arabic": "جبن",
+    "calories": 105.0,
+    "proteines": 7.0,
+    "glucides": 0,
+    "lipides": 9.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Roquefort type",
+    "name_arabic": "نوع الروكفورت",
+    "calories": 105.0,
+    "proteines": 6.0,
+    "glucides": 0,
+    "lipides": 9.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Swiss",
+    "name_arabic": "جبن سويسري",
+    "calories": 105.0,
+    "proteines": 7.0,
+    "glucides": 0,
+    "lipides": 8.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Eggs raw",
+    "name_arabic": "بيض نيء",
+    "calories": 150.0,
+    "proteines": 12.0,
+    "glucides": 0,
+    "lipides": 12.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Eggs Scrambled or fried",
+    "name_arabic": "بيض مخفوق",
+    "calories": 220.0,
+    "proteines": 13.0,
+    "glucides": 1.0,
+    "lipides": 16.0,
+    "category": "Dairy products",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Yolks",
+    "name_arabic": "صفار بيض",
+    "calories": 120.0,
+    "proteines": 6.0,
+    "glucides": 0,
+    "lipides": 10.0,
+    "category": "Fats, Oils, Shortenings",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Butter",
+    "name_arabic": "لبن خاثر",
+    "calories": 100.0,
+    "proteines": 0,
+    "glucides": 0,
+    "lipides": 11.0,
+    "category": "Fats, Oils, Shortenings",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Butter",
+    "name_arabic": "لبن خاثر",
+    "calories": 113.0,
+    "proteines": 114.0,
+    "glucides": 118.0,
+    "lipides": 115.0,
+    "category": "Fats, Oils, Shortenings",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Butter",
+    "name_arabic": "لبن خاثر",
+    "calories": 113.0,
+    "proteines": 114.0,
+    "glucides": 118.0,
+    "lipides": 115.0,
+    "category": "Fats, Oils, Shortenings",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Hydrogenated cooking fat",
+    "name_arabic": "دهون الطبخ المهدرجة",
+    "calories": 665.0,
+    "proteines": 0.0,
+    "glucides": 0.0,
+    "lipides": 100.0,
+    "category": "Fats, Oils, Shortenings",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Lard",
+    "name_arabic": "شحم الخنزير",
+    "calories": 992.0,
+    "proteines": 0.0,
+    "glucides": 0.0,
+    "lipides": 110.0,
+    "category": "Fats, Oils, Shortenings",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Margarine",
+    "name_arabic": "مارغرين",
+    "calories": 806.0,
+    "proteines": 0,
+    "glucides": 0,
+    "lipides": 91.0,
+    "category": "Fats, Oils, Shortenings",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Margarine, 2 pat or",
+    "name_arabic": "مارغرين",
+    "calories": 100.0,
+    "proteines": 0,
+    "glucides": 0,
+    "lipides": 11.0,
+    "category": "Fats, Oils, Shortenings",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Mayonnaise",
+    "name_arabic": "مايونيز",
+    "calories": 110.0,
+    "proteines": 0,
+    "glucides": 0,
+    "lipides": 12.0,
+    "category": "Fats, Oils, Shortenings",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Corn oil",
+    "name_arabic": "زيت ذرة",
+    "calories": 125.0,
+    "proteines": 0.0,
+    "glucides": 0.0,
+    "lipides": 14.0,
+    "category": "Fats, Oils, Shortenings",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Olive oil",
+    "name_arabic": "زيت زيتون",
+    "calories": 125.0,
+    "proteines": 0.0,
+    "glucides": 0.0,
+    "lipides": 14.0,
+    "category": "Fats, Oils, Shortenings",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Safflower seed oil",
+    "name_arabic": "زيت بذور القرطم",
+    "calories": 125.0,
+    "proteines": 0.0,
+    "glucides": 0.0,
+    "lipides": 14.0,
+    "category": "Fats, Oils, Shortenings",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "French dressing",
+    "name_arabic": "خلع الملابس الفرنسية",
+    "calories": 60.0,
+    "proteines": 0,
+    "glucides": 2.0,
+    "lipides": 6.0,
+    "category": "Fats, Oils, Shortenings",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Thousand Island sauce",
+    "name_arabic": "صلصة ألف جزيرة",
+    "calories": 75.0,
+    "proteines": 0,
+    "glucides": 1.0,
+    "lipides": 8.0,
+    "category": "Fats, Oils, Shortenings",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Salt pork",
+    "name_arabic": "لحم خنزير",
+    "calories": 470.0,
+    "proteines": 3.0,
+    "glucides": 0.0,
+    "lipides": 55.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Bacon",
+    "name_arabic": "بيكون",
+    "calories": 95.0,
+    "proteines": 4.0,
+    "glucides": 1.0,
+    "lipides": 8.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Beef",
+    "name_arabic": "لحم بقر",
+    "calories": 245.0,
+    "proteines": 23.0,
+    "glucides": 0.0,
+    "lipides": 16.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Hamburger",
+    "name_arabic": "هامبرغر",
+    "calories": 245.0,
+    "proteines": 21.0,
+    "glucides": 0.0,
+    "lipides": 17.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Ground lean",
+    "name_arabic": "لحم مفروم قليل الدهن",
+    "calories": 185.0,
+    "proteines": 24.0,
+    "glucides": 0.0,
+    "lipides": 10.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Roast beef",
+    "name_arabic": "لحم بقر",
+    "calories": 390.0,
+    "proteines": 16.0,
+    "glucides": 0.0,
+    "lipides": 36.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Steak",
+    "name_arabic": "ستيك",
+    "calories": 330.0,
+    "proteines": 20.0,
+    "glucides": 0.0,
+    "lipides": 27.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Steak, lean, as round",
+    "name_arabic": "ستيك",
+    "calories": 220.0,
+    "proteines": 24.0,
+    "glucides": 0.0,
+    "lipides": 12.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Corned beef",
+    "name_arabic": "لحم بقر",
+    "calories": 185.0,
+    "proteines": 22.0,
+    "glucides": 0.0,
+    "lipides": 10.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Corned beef hash canned",
+    "name_arabic": "لحم بقر",
+    "calories": 120.0,
+    "proteines": 12.0,
+    "glucides": 6.0,
+    "lipides": 8.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Corned beef hash Dried",
+    "name_arabic": "لحم بقر",
+    "calories": 115.0,
+    "proteines": 19.0,
+    "glucides": 0.0,
+    "lipides": 4.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Pot-pie",
+    "name_arabic": "وعاء فطيرة",
+    "calories": 480.0,
+    "proteines": 18.0,
+    "glucides": 32.0,
+    "lipides": 28.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Corned beef hash Stew",
+    "name_arabic": "لحم بقر",
+    "calories": 185.0,
+    "proteines": 15.0,
+    "glucides": 15.0,
+    "lipides": 10.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "chicken",
+    "name_arabic": "دجاج",
+    "calories": 185.0,
+    "proteines": 23.0,
+    "glucides": 0.0,
+    "lipides": 9.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Fried, breast or leg and thigh chicken",
+    "name_arabic": "دجاج",
+    "calories": 245.0,
+    "proteines": 25.0,
+    "glucides": 0.0,
+    "lipides": 15.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Roasted chicken",
+    "name_arabic": "دجاج",
+    "calories": 290.0,
+    "proteines": 25.0,
+    "glucides": 0.0,
+    "lipides": 20.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Chicken livers, fried",
+    "name_arabic": "دجاج",
+    "calories": 140.0,
+    "proteines": 22.0,
+    "glucides": 2.3,
+    "lipides": 14.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Duck, domestic",
+    "name_arabic": "بطة محلية",
+    "calories": 370.0,
+    "proteines": 16.0,
+    "glucides": 0.0,
+    "lipides": 28.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Lamb, chop, broiled",
+    "name_arabic": "لحم خروف",
+    "calories": 480.0,
+    "proteines": 24.0,
+    "glucides": 0.0,
+    "lipides": 35.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Leg roasted",
+    "name_arabic": "الساق مشوية",
+    "calories": 314.0,
+    "proteines": 20.0,
+    "glucides": 0.0,
+    "lipides": 14.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Shoulder, braised",
+    "name_arabic": "الكتف، مطهو ببطء",
+    "calories": 285.0,
+    "proteines": 18.0,
+    "glucides": 0.0,
+    "lipides": 23.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Pork, chop, 1 thick",
+    "name_arabic": "لحم خنزير",
+    "calories": 260.0,
+    "proteines": 16.0,
+    "glucides": 0.0,
+    "lipides": 21.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Ham pan-broiled",
+    "name_arabic": "هام",
+    "calories": 290.0,
+    "proteines": 16.0,
+    "glucides": 0.0,
+    "lipides": 22.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Ham, as ",
+    "name_arabic": "هام",
+    "calories": 170.0,
+    "proteines": 13.0,
+    "glucides": 0.0,
+    "lipides": 13.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Ham, canned, spiced",
+    "name_arabic": "هام",
+    "calories": 165.0,
+    "proteines": 8.0,
+    "glucides": 1.0,
+    "lipides": 14.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Pork roast",
+    "name_arabic": "لحم خنزير",
+    "calories": 310.0,
+    "proteines": 21.0,
+    "glucides": 0.0,
+    "lipides": 24.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Pork sausage",
+    "name_arabic": "لحم خنزير",
+    "calories": 475.0,
+    "proteines": 18.0,
+    "glucides": 0.0,
+    "lipides": 44.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Turkey",
+    "name_arabic": "ديك رومي",
+    "calories": 265.0,
+    "proteines": 27.0,
+    "glucides": 0.0,
+    "lipides": 15.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Veal",
+    "name_arabic": "لحم عجل",
+    "calories": 185.0,
+    "proteines": 23.0,
+    "glucides": 0.0,
+    "lipides": 9.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Roast",
+    "name_arabic": "لحم مشوي",
+    "calories": 305.0,
+    "proteines": 13.0,
+    "glucides": 0.0,
+    "lipides": 14.0,
+    "category": "Meat, Poultry",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Clams",
+    "name_arabic": "المحار",
+    "calories": 87.0,
+    "proteines": 12.0,
+    "glucides": 2.0,
+    "lipides": 1.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cod",
+    "name_arabic": "قد",
+    "calories": 170.0,
+    "proteines": 28.0,
+    "glucides": 0.0,
+    "lipides": 5.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Crab meat",
+    "name_arabic": "سلطعون",
+    "calories": 90.0,
+    "proteines": 14.0,
+    "glucides": 1.0,
+    "lipides": 2.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Fish sticks fried",
+    "name_arabic": "سمك",
+    "calories": 200.0,
+    "proteines": 19.0,
+    "glucides": 8.0,
+    "lipides": 10.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Flounder",
+    "name_arabic": "تخبط",
+    "calories": 200.0,
+    "proteines": 30.0,
+    "glucides": 0.0,
+    "lipides": 8.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Haddock",
+    "name_arabic": "الحدوق",
+    "calories": 135.0,
+    "proteines": 16.0,
+    "glucides": 6.0,
+    "lipides": 5.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Halibut",
+    "name_arabic": "سمكة الهلبوت",
+    "calories": 182.0,
+    "proteines": 26.0,
+    "glucides": 0.0,
+    "lipides": 8.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Herring",
+    "name_arabic": "سمك مملح",
+    "calories": 211.0,
+    "proteines": 22.0,
+    "glucides": 0.0,
+    "lipides": 13.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Lobster",
+    "name_arabic": "استاكوزا",
+    "calories": 92.0,
+    "proteines": 18.0,
+    "glucides": 0,
+    "lipides": 1.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Mackerel",
+    "name_arabic": "سمك الأسقمري البحري",
+    "calories": 155.0,
+    "proteines": 18.0,
+    "glucides": 0.0,
+    "lipides": 9.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Oysters",
+    "name_arabic": "محار",
+    "calories": 231.0,
+    "proteines": 232.0,
+    "glucides": 236.0,
+    "lipides": 233.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Oyster stew",
+    "name_arabic": "محار مطهو",
+    "calories": 125.0,
+    "proteines": 19.0,
+    "glucides": 0.0,
+    "lipides": 6.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Salmon",
+    "name_arabic": "سلمون",
+    "calories": 120.0,
+    "proteines": 17.0,
+    "glucides": 0.0,
+    "lipides": 5.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Sardines",
+    "name_arabic": "سردين",
+    "calories": 180.0,
+    "proteines": 22.0,
+    "glucides": 0.0,
+    "lipides": 9.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Scallops",
+    "name_arabic": "الاسكالوب",
+    "calories": 104.0,
+    "proteines": 18.0,
+    "glucides": 10.0,
+    "lipides": 8.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Shad",
+    "name_arabic": "شاد",
+    "calories": 170.0,
+    "proteines": 20.0,
+    "glucides": 0.0,
+    "lipides": 10.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Shrimp",
+    "name_arabic": "جمبري",
+    "calories": 110.0,
+    "proteines": 23.0,
+    "glucides": 0.0,
+    "lipides": 1.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Swordfish",
+    "name_arabic": "سمك",
+    "calories": 180.0,
+    "proteines": 27.0,
+    "glucides": 0.0,
+    "lipides": 6.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Tuna",
+    "name_arabic": "تونة",
+    "calories": 170.0,
+    "proteines": 25.0,
+    "glucides": 0.0,
+    "lipides": 7.0,
+    "category": "Fish, Seafood",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Artichoke",
+    "name_arabic": "خرشوف",
+    "calories": 8.0,
+    "proteines": 2.0,
+    "glucides": 10.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Asparagus",
+    "name_arabic": "الهليون",
+    "calories": 18.0,
+    "proteines": 1.0,
+    "glucides": 3.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Beans",
+    "name_arabic": "فاصوليا",
+    "calories": 25.0,
+    "proteines": 1.0,
+    "glucides": 6.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Lima",
+    "name_arabic": "ليما",
+    "calories": 140.0,
+    "proteines": 8.0,
+    "glucides": 24.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Lima, dry, cooked",
+    "name_arabic": "ليما، جافة، مطبوخة",
+    "calories": 260.0,
+    "proteines": 16.0,
+    "glucides": 48.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Navy, baked with pork",
+    "name_arabic": "لحم خنزير",
+    "calories": 250.0,
+    "proteines": 11.0,
+    "glucides": 37.0,
+    "lipides": 6.0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Red kidney",
+    "name_arabic": "الكلى الحمراء",
+    "calories": 230.0,
+    "proteines": 15.0,
+    "glucides": 42.0,
+    "lipides": 1.0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Bean sprouts",
+    "name_arabic": "براعم الفاصوليا",
+    "calories": 17.0,
+    "proteines": 1.0,
+    "glucides": 3.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Beet greens",
+    "name_arabic": "البنجر الأخضر",
+    "calories": 27.0,
+    "proteines": 2.0,
+    "glucides": 6.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Beetroots",
+    "name_arabic": "الشمندر",
+    "calories": 1.0,
+    "proteines": 12.0,
+    "glucides": 0.8,
+    "lipides": 0.0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Broccoli",
+    "name_arabic": "بروكلي",
+    "calories": 45.0,
+    "proteines": 5.0,
+    "glucides": 8.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Brussels sprouts",
+    "name_arabic": "براعم بروكسل",
+    "calories": 60.0,
+    "proteines": 6.0,
+    "glucides": 12.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Sauerkraut",
+    "name_arabic": "مخلل الملفوف",
+    "calories": 32.0,
+    "proteines": 1.0,
+    "glucides": 7.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Steamed cabbage",
+    "name_arabic": "شاي",
+    "calories": 40.0,
+    "proteines": 2.0,
+    "glucides": 9.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Carrots",
+    "name_arabic": "جزر",
+    "calories": 45.0,
+    "proteines": 1.0,
+    "glucides": 10.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Raw, grated",
+    "name_arabic": "الخام، المبشور",
+    "calories": 45.0,
+    "proteines": 1.0,
+    "glucides": 10.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Strips, from raw",
+    "name_arabic": "شرائط من الخام",
+    "calories": 20.0,
+    "proteines": 0,
+    "glucides": 5.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cauliflower",
+    "name_arabic": "قرنبيط",
+    "calories": 30.0,
+    "proteines": 3.0,
+    "glucides": 6.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Celery",
+    "name_arabic": "كرفس",
+    "calories": 20.0,
+    "proteines": 1.0,
+    "glucides": 4.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Stalk raw",
+    "name_arabic": "ساق الخام",
+    "calories": 5.0,
+    "proteines": 1.0,
+    "glucides": 1.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Chard steamed",
+    "name_arabic": "شاي",
+    "calories": 30.0,
+    "proteines": 2.0,
+    "glucides": 7.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Collards",
+    "name_arabic": "الياقات",
+    "calories": 51.0,
+    "proteines": 5.0,
+    "glucides": 8.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Corn",
+    "name_arabic": "زيت ذرة",
+    "calories": 92.0,
+    "proteines": 3.0,
+    "glucides": 21.0,
+    "lipides": 1.0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "cooked or canned",
+    "name_arabic": "مطبوخة أو معلبة",
+    "calories": 170.0,
+    "proteines": 5.0,
+    "glucides": 41.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cucumbers",
+    "name_arabic": "خيار",
+    "calories": 6.0,
+    "proteines": 0,
+    "glucides": 1.0,
+    "lipides": 0.0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Dandelion greens",
+    "name_arabic": "الهندباء الخضراء",
+    "calories": 80.0,
+    "proteines": 5.0,
+    "glucides": 16.0,
+    "lipides": 1.0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Eggplant",
+    "name_arabic": "باذنجان",
+    "calories": 30.0,
+    "proteines": 2.0,
+    "glucides": 9.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Endive",
+    "name_arabic": "الهندباء",
+    "calories": 10.0,
+    "proteines": 1.0,
+    "glucides": 2.0,
+    "lipides": 0,
+    "category": "Vegetables A-E",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Kale",
+    "name_arabic": "كالي",
+    "calories": 45.0,
+    "proteines": 4.0,
+    "glucides": 8.0,
+    "lipides": 1.0,
+    "category": "Vegetables F-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Kohlrabi",
+    "name_arabic": "كولرابي",
+    "calories": 40.0,
+    "proteines": 2.0,
+    "glucides": 9.0,
+    "lipides": 0,
+    "category": "Vegetables F-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Lambs quarters, steamed",
+    "name_arabic": "لحم خروف",
+    "calories": 48.0,
+    "proteines": 5.0,
+    "glucides": 7.0,
+    "lipides": 0,
+    "category": "Vegetables F-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Lentils",
+    "name_arabic": "العدس",
+    "calories": 212.0,
+    "proteines": 15.0,
+    "glucides": 38.0,
+    "lipides": 0,
+    "category": "Vegetables F-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Lettuce",
+    "name_arabic": "خس",
+    "calories": 14.0,
+    "proteines": 1.0,
+    "glucides": 2.0,
+    "lipides": 0,
+    "category": "Vegetables F-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Iceberg",
+    "name_arabic": "جبل جليدي",
+    "calories": 13.0,
+    "proteines": 0,
+    "glucides": 3.0,
+    "lipides": 0,
+    "category": "Vegetables F-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Mushrooms canned",
+    "name_arabic": "الفطر المعلب",
+    "calories": 12.0,
+    "proteines": 2.0,
+    "glucides": 4.0,
+    "lipides": 0,
+    "category": "Vegetables F-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Mustard greens",
+    "name_arabic": "الخردل",
+    "calories": 30.0,
+    "proteines": 3.0,
+    "glucides": 6.0,
+    "lipides": 0,
+    "category": "Vegetables F-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Okra",
+    "name_arabic": "البامية",
+    "calories": 32.0,
+    "proteines": 1.0,
+    "glucides": 7.0,
+    "lipides": 0,
+    "category": "Vegetables F-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Onions",
+    "name_arabic": "بصل",
+    "calories": 80.0,
+    "proteines": 2.0,
+    "glucides": 18.0,
+    "lipides": 0,
+    "category": "Vegetables F-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Raw, green",
+    "name_arabic": "خام، أخضر",
+    "calories": 22.0,
+    "proteines": 0,
+    "glucides": 5.0,
+    "lipides": 0,
+    "category": "Vegetables F-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Parsley",
+    "name_arabic": "بَقدونس",
+    "calories": 2.0,
+    "proteines": 0,
+    "glucides": 0,
+    "lipides": 0,
+    "category": "Vegetables F-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Parsnips",
+    "name_arabic": "الجزر الأبيض",
+    "calories": 95.0,
+    "proteines": 2.0,
+    "glucides": 22.0,
+    "lipides": 1.0,
+    "category": "Vegetables F-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Peas",
+    "name_arabic": "بازلاء",
+    "calories": 66.0,
+    "proteines": 3.0,
+    "glucides": 13.0,
+    "lipides": 0,
+    "category": "Vegetables F-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Fresh, steamed peas",
+    "name_arabic": "بازلاء",
+    "calories": 70.0,
+    "proteines": 5.0,
+    "glucides": 12.0,
+    "lipides": 0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Split cooked peas",
+    "name_arabic": "بازلاء",
+    "calories": 115.0,
+    "proteines": 8.0,
+    "glucides": 21.0,
+    "lipides": 0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "heated peas",
+    "name_arabic": "بازلاء",
+    "calories": 53.0,
+    "proteines": 3.0,
+    "glucides": 10.0,
+    "lipides": 0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Peppers canned",
+    "name_arabic": "فلفل معلب",
+    "calories": 10.0,
+    "proteines": 0,
+    "glucides": 2.0,
+    "lipides": 0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Peppers Raw, green, sweet",
+    "name_arabic": "فلفل نيء، أخضر، حلو",
+    "calories": 25.0,
+    "proteines": 1.0,
+    "glucides": 6.0,
+    "lipides": 0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Peppers with beef and crumbs",
+    "name_arabic": "لحم بقر",
+    "calories": 255.0,
+    "proteines": 19.0,
+    "glucides": 24.0,
+    "lipides": 9.0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Potatoes, baked",
+    "name_arabic": "بطاطس",
+    "calories": 100.0,
+    "proteines": 2.0,
+    "glucides": 22.0,
+    "lipides": 0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "French-fried",
+    "name_arabic": "بطاطس مقلية",
+    "calories": 155.0,
+    "proteines": 1.0,
+    "glucides": 20.0,
+    "lipides": 7.0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Potatoes Mashed with milk and butter",
+    "name_arabic": "زبدة",
+    "calories": 230.0,
+    "proteines": 4.0,
+    "glucides": 28.0,
+    "lipides": 12.0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Potatoes, pan-tried",
+    "name_arabic": "بطاطس",
+    "calories": 268.0,
+    "proteines": 4.0,
+    "glucides": 33.0,
+    "lipides": 14.0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Scalloped with cheese potatoes",
+    "name_arabic": "جبن",
+    "calories": 145.0,
+    "proteines": 6.0,
+    "glucides": 14.0,
+    "lipides": 8.0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Steamed potatoes before peeling",
+    "name_arabic": "بطاطس",
+    "calories": 80.0,
+    "proteines": 2.0,
+    "glucides": 19.0,
+    "lipides": 0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Potato chips",
+    "name_arabic": "بطاطس",
+    "calories": 110.0,
+    "proteines": 1.0,
+    "glucides": 10.0,
+    "lipides": 7.0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Radishes",
+    "name_arabic": "الفجل",
+    "calories": 10.0,
+    "proteines": 0,
+    "glucides": 2.0,
+    "lipides": 0.0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Rutabagas",
+    "name_arabic": "روتاباجاس",
+    "calories": 32.0,
+    "proteines": 0,
+    "glucides": 8.0,
+    "lipides": 0.0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Soybeans",
+    "name_arabic": "فاصوليا",
+    "calories": 260.0,
+    "proteines": 22.0,
+    "glucides": 20.0,
+    "lipides": 11.0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Spinach",
+    "name_arabic": "سبانخ",
+    "calories": 26.0,
+    "proteines": 3.0,
+    "glucides": 3.0,
+    "lipides": 0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Squash",
+    "name_arabic": "قرع",
+    "calories": 35.0,
+    "proteines": 1.0,
+    "glucides": 8.0,
+    "lipides": 0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Winter, mashed",
+    "name_arabic": "الشتاء، المهروسة",
+    "calories": 95.0,
+    "proteines": 4.0,
+    "glucides": 23.0,
+    "lipides": 0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Sweet potatoes",
+    "name_arabic": "بطاطس",
+    "calories": 155.0,
+    "proteines": 2.0,
+    "glucides": 36.0,
+    "lipides": 1.0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Candied",
+    "name_arabic": "ملبس",
+    "calories": 235.0,
+    "proteines": 2.0,
+    "glucides": 80.0,
+    "lipides": 6.0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Tomatoes",
+    "name_arabic": "طماطم",
+    "calories": 50.0,
+    "proteines": 2.0,
+    "glucides": 9.0,
+    "lipides": 0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Raw, 2 by 2 1/2",
+    "name_arabic": "الخام، 2 بنسبة 2 1/2",
+    "calories": 30.0,
+    "proteines": 1.0,
+    "glucides": 6.0,
+    "lipides": 0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Tomato juice",
+    "name_arabic": "عصير",
+    "calories": 50.0,
+    "proteines": 2.0,
+    "glucides": 10.0,
+    "lipides": 0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Tomato catsup",
+    "name_arabic": "كاتشب طماطم",
+    "calories": 15.0,
+    "proteines": 0,
+    "glucides": 4.0,
+    "lipides": 0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Turnip greens",
+    "name_arabic": "اللفت الأخضر",
+    "calories": 45.0,
+    "proteines": 4.0,
+    "glucides": 8.0,
+    "lipides": 1.0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Turnips, steamed",
+    "name_arabic": "شاي",
+    "calories": 40.0,
+    "proteines": 1.0,
+    "glucides": 9.0,
+    "lipides": 0,
+    "category": "Vegetables R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Watercress stems, raw",
+    "name_arabic": "ماء",
+    "calories": 9.0,
+    "proteines": 1.0,
+    "glucides": 1.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Apple juice canned",
+    "name_arabic": "تفاح",
+    "calories": 125.0,
+    "proteines": 0,
+    "glucides": 34.0,
+    "lipides": 0.0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Apple vinegar",
+    "name_arabic": "تفاح",
+    "calories": 14.0,
+    "proteines": 0,
+    "glucides": 3.0,
+    "lipides": 0.0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Apples, raw",
+    "name_arabic": "تفاح",
+    "calories": 70.0,
+    "proteines": 0,
+    "glucides": 18.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Stewed or canned",
+    "name_arabic": "مطهية أو معلبة",
+    "calories": 100.0,
+    "proteines": 0,
+    "glucides": 26.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Apricots",
+    "name_arabic": "المشمش",
+    "calories": 220.0,
+    "proteines": 2.0,
+    "glucides": 57.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Dried, uncooked",
+    "name_arabic": "المجففة وغير المطبوخة",
+    "calories": 220.0,
+    "proteines": 4.0,
+    "glucides": 50.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Fresh",
+    "name_arabic": "طازج",
+    "calories": 55.0,
+    "proteines": 1.0,
+    "glucides": 14.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Nectar, or juice",
+    "name_arabic": "عصير",
+    "calories": 140.0,
+    "proteines": 1.0,
+    "glucides": 36.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Avocado",
+    "name_arabic": "الأفوكادو",
+    "calories": 185.0,
+    "proteines": 2.0,
+    "glucides": 6.0,
+    "lipides": 18.0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Banana",
+    "name_arabic": "موز",
+    "calories": 85.0,
+    "proteines": 1.0,
+    "glucides": 23.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Blackberries",
+    "name_arabic": "شجر العليق - أجهزة البلاك بيري",
+    "calories": 85.0,
+    "proteines": 2.0,
+    "glucides": 19.0,
+    "lipides": 1.0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Blueberries",
+    "name_arabic": "التوت",
+    "calories": 245.0,
+    "proteines": 1.0,
+    "glucides": 65.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cantaloupe",
+    "name_arabic": "شمام",
+    "calories": 40.0,
+    "proteines": 1.0,
+    "glucides": 9.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cherries",
+    "name_arabic": "الكرز",
+    "calories": 100.0,
+    "proteines": 2.0,
+    "glucides": 26.0,
+    "lipides": 1.0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Fresh, raw",
+    "name_arabic": "طازجة وخام",
+    "calories": 65.0,
+    "proteines": 1.0,
+    "glucides": 15.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cranberry sauce sweetened",
+    "name_arabic": "صلصة التوت البري المحلاة",
+    "calories": 530.0,
+    "proteines": 0,
+    "glucides": 142.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Dates",
+    "name_arabic": "بلح",
+    "calories": 505.0,
+    "proteines": 4.0,
+    "glucides": 134.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Figs",
+    "name_arabic": "التين",
+    "calories": 120.0,
+    "proteines": 2.0,
+    "glucides": 30.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Fresh, raw figs",
+    "name_arabic": "التين الطازج الخام",
+    "calories": 90.0,
+    "proteines": 2.0,
+    "glucides": 22.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "figs Canned with syrup ",
+    "name_arabic": "تين معلب مع شراب",
+    "calories": 130.0,
+    "proteines": 1.0,
+    "glucides": 32.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Fruit cocktail, canned",
+    "name_arabic": "كوكتيل فواكه، معلب",
+    "calories": 195.0,
+    "proteines": 1.0,
+    "glucides": 50.0,
+    "lipides": 0,
+    "category": "Fruits A-F",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Grapefruit sections",
+    "name_arabic": "أقسام الجريب فروت",
+    "calories": 170.0,
+    "proteines": 1.0,
+    "glucides": 44.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Grapefruit, fresh, 5\" diameter",
+    "name_arabic": "جريب فروت، طازج، قطر 5 بوصة",
+    "calories": 50.0,
+    "proteines": 1.0,
+    "glucides": 14.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Grapefruit juice",
+    "name_arabic": "عصير",
+    "calories": 100.0,
+    "proteines": 1.0,
+    "glucides": 24.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Grapes",
+    "name_arabic": "عنب",
+    "calories": 70.0,
+    "proteines": 1.0,
+    "glucides": 16.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "European, as Muscat, Tokay",
+    "name_arabic": "الأوروبية، كما مسقط، توكاي",
+    "calories": 100.0,
+    "proteines": 1.0,
+    "glucides": 26.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Grape juice",
+    "name_arabic": "عصير",
+    "calories": 160.0,
+    "proteines": 1.0,
+    "glucides": 42.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Lemon juice",
+    "name_arabic": "عصير",
+    "calories": 30.0,
+    "proteines": 0,
+    "glucides": 10.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Lemonade concentratefrozen",
+    "name_arabic": "عصير الليمون المركز مجمد",
+    "calories": 430.0,
+    "proteines": 0,
+    "glucides": 112.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Limeade concentrate frozen",
+    "name_arabic": "مركز ليميد مجمد",
+    "calories": 405.0,
+    "proteines": 0,
+    "glucides": 108.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Olives large",
+    "name_arabic": "زيتون كبير",
+    "calories": 72.0,
+    "proteines": 1.0,
+    "glucides": 3.0,
+    "lipides": 10.0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "OlivesRipe",
+    "name_arabic": "زيتون ناضج",
+    "calories": 105.0,
+    "proteines": 1.0,
+    "glucides": 1.0,
+    "lipides": 13.0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Oranges 3\" diameter",
+    "name_arabic": "برتقال",
+    "calories": 60.0,
+    "proteines": 2.0,
+    "glucides": 16.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Orange juice",
+    "name_arabic": "برتقال",
+    "calories": 112.0,
+    "proteines": 2.0,
+    "glucides": 25.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Frozen ",
+    "name_arabic": "المجمدة",
+    "calories": 330.0,
+    "proteines": 2.0,
+    "glucides": 78.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Papaya",
+    "name_arabic": "البابايا",
+    "calories": 75.0,
+    "proteines": 1.0,
+    "glucides": 18.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Peaches",
+    "name_arabic": "الخوخ",
+    "calories": 200.0,
+    "proteines": 1.0,
+    "glucides": 52.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Fresh, raw",
+    "name_arabic": "طازجة وخام",
+    "calories": 35.0,
+    "proteines": 1.0,
+    "glucides": 10.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Pears",
+    "name_arabic": "الكمثرى",
+    "calories": 195.0,
+    "proteines": 1.0,
+    "glucides": 50.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Raw, 3 by 2V",
+    "name_arabic": "خام، 3 × 2 فولت",
+    "calories": 100.0,
+    "proteines": 1.0,
+    "glucides": 25.0,
+    "lipides": 1.0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Persimmons",
+    "name_arabic": "البرسيمون",
+    "calories": 75.0,
+    "proteines": 1.0,
+    "glucides": 20.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Pineapple",
+    "name_arabic": "تفاح",
+    "calories": 95.0,
+    "proteines": 0,
+    "glucides": 26.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Pineapple Crushed",
+    "name_arabic": "تفاح",
+    "calories": 205.0,
+    "proteines": 1.0,
+    "glucides": 55.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Raw, diced",
+    "name_arabic": "الخام، مقطعة إلى مكعبات",
+    "calories": 75.0,
+    "proteines": 1.0,
+    "glucides": 19.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Pineapple juice",
+    "name_arabic": "تفاح",
+    "calories": 120.0,
+    "proteines": 1.0,
+    "glucides": 32.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Plums",
+    "name_arabic": "البرقوق",
+    "calories": 185.0,
+    "proteines": 1.0,
+    "glucides": 50.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Raw, 2\" diameter",
+    "name_arabic": "خام، قطر 2 بوصة",
+    "calories": 30.0,
+    "proteines": 0,
+    "glucides": 7.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Prunes",
+    "name_arabic": "البرقوق",
+    "calories": 300.0,
+    "proteines": 3.0,
+    "glucides": 81.0,
+    "lipides": 1.0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Prune juice",
+    "name_arabic": "عصير",
+    "calories": 170.0,
+    "proteines": 1.0,
+    "glucides": 45.0,
+    "lipides": 0,
+    "category": "Fruits G-P",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Raisins",
+    "name_arabic": "الزبيب",
+    "calories": 230.0,
+    "proteines": 2.0,
+    "glucides": 82.0,
+    "lipides": 0,
+    "category": "Fruits R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Raspberries",
+    "name_arabic": "التوت",
+    "calories": 100.0,
+    "proteines": 0,
+    "glucides": 25.0,
+    "lipides": 0,
+    "category": "Fruits R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Raw, red",
+    "name_arabic": "خام، أحمر",
+    "calories": 57.0,
+    "proteines": 0,
+    "glucides": 14.0,
+    "lipides": 0,
+    "category": "Fruits R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Rhubarb sweetened",
+    "name_arabic": "راوند محلى",
+    "calories": 385.0,
+    "proteines": 1.0,
+    "glucides": 98.0,
+    "lipides": 0,
+    "category": "Fruits R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Strawberries",
+    "name_arabic": "الفراولة",
+    "calories": 242.0,
+    "proteines": 1.0,
+    "glucides": 60.0,
+    "lipides": 0,
+    "category": "Fruits R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Raw",
+    "name_arabic": "بيض نيء",
+    "calories": 54.0,
+    "proteines": 0,
+    "glucides": 12.0,
+    "lipides": 0,
+    "category": "Fruits R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Tangerines",
+    "name_arabic": "اليوسفي",
+    "calories": 40.0,
+    "proteines": 1.0,
+    "glucides": 10.0,
+    "lipides": 0,
+    "category": "Fruits R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Watermelon",
+    "name_arabic": "بطيخ",
+    "calories": 120.0,
+    "proteines": 2.0,
+    "glucides": 29.0,
+    "lipides": 1.0,
+    "category": "Fruits R-Z",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Biscuits",
+    "name_arabic": "بسكويت",
+    "calories": 130.0,
+    "proteines": 3.0,
+    "glucides": 18.0,
+    "lipides": 4.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Bran flakes",
+    "name_arabic": "رقائق النخالة",
+    "calories": 117.0,
+    "proteines": 3.0,
+    "glucides": 32.0,
+    "lipides": 0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Bread, cracked wheat",
+    "name_arabic": "الخبز والقمح المكسور",
+    "calories": 60.0,
+    "proteines": 2.0,
+    "glucides": 12.0,
+    "lipides": 1.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Rye",
+    "name_arabic": "الجاودار",
+    "calories": 55.0,
+    "proteines": 2.0,
+    "glucides": 12.0,
+    "lipides": 1.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "White, 20 slices, or",
+    "name_arabic": "أبيض، 20 شريحة، أو",
+    "calories": 1.0,
+    "proteines": 39.0,
+    "glucides": 229.0,
+    "lipides": 15.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Whole-wheat",
+    "name_arabic": "كل الدقيق",
+    "calories": 1.0,
+    "proteines": 48.0,
+    "glucides": 216.0,
+    "lipides": 14.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Whole-wheat",
+    "name_arabic": "كل الدقيق",
+    "calories": 55.0,
+    "proteines": 2.0,
+    "glucides": 11.0,
+    "lipides": 1.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Corn bread ground meal",
+    "name_arabic": "ذرة",
+    "calories": 100.0,
+    "proteines": 3.0,
+    "glucides": 15.0,
+    "lipides": 4.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cornflakes",
+    "name_arabic": "ذرة",
+    "calories": 110.0,
+    "proteines": 2.0,
+    "glucides": 25.0,
+    "lipides": 0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Corn grits cooked",
+    "name_arabic": "ذرة",
+    "calories": 120.0,
+    "proteines": 8.0,
+    "glucides": 27.0,
+    "lipides": 0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Corn meal",
+    "name_arabic": "ذرة",
+    "calories": 360.0,
+    "proteines": 9.0,
+    "glucides": 74.0,
+    "lipides": 4.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Crackers",
+    "name_arabic": "المفرقعات",
+    "calories": 55.0,
+    "proteines": 1.0,
+    "glucides": 10.0,
+    "lipides": 1.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Soda, 2 1/2 square",
+    "name_arabic": "مشروب غازي",
+    "calories": 45.0,
+    "proteines": 1.0,
+    "glucides": 8.0,
+    "lipides": 1.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Farina",
+    "name_arabic": "فارينا",
+    "calories": 105.0,
+    "proteines": 3.0,
+    "glucides": 22.0,
+    "lipides": 0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Flour",
+    "name_arabic": "دقيق",
+    "calories": 460.0,
+    "proteines": 39.0,
+    "glucides": 33.0,
+    "lipides": 22.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Wheat (all purpose)",
+    "name_arabic": "القمح",
+    "calories": 400.0,
+    "proteines": 12.0,
+    "glucides": 84.0,
+    "lipides": 1.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Wheat (whole)",
+    "name_arabic": "القمح",
+    "calories": 390.0,
+    "proteines": 13.0,
+    "glucides": 79.0,
+    "lipides": 2.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Macaroni",
+    "name_arabic": "معكرونة",
+    "calories": 155.0,
+    "proteines": 5.0,
+    "glucides": 32.0,
+    "lipides": 1.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Baked with cheese",
+    "name_arabic": "جبن",
+    "calories": 475.0,
+    "proteines": 18.0,
+    "glucides": 44.0,
+    "lipides": 25.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Muffins",
+    "name_arabic": "الكعك",
+    "calories": 135.0,
+    "proteines": 4.0,
+    "glucides": 19.0,
+    "lipides": 5.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Noodles",
+    "name_arabic": "نودلز",
+    "calories": 200.0,
+    "proteines": 7.0,
+    "glucides": 37.0,
+    "lipides": 2.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Oatmeal",
+    "name_arabic": "دقيق الشوفان",
+    "calories": 150.0,
+    "proteines": 5.0,
+    "glucides": 26.0,
+    "lipides": 3.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Pancakes 4\" diam.",
+    "name_arabic": "فطائر بقطر 4 بوصة.",
+    "calories": 250.0,
+    "proteines": 7.0,
+    "glucides": 28.0,
+    "lipides": 9.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Wheat, pancakes 4\" diam.",
+    "name_arabic": "قمح، فطائر بقطر 4 بوصة.",
+    "calories": 250.0,
+    "proteines": 7.0,
+    "glucides": 28.0,
+    "lipides": 9.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Pizza 14\" diam.",
+    "name_arabic": "بيتزا بقطر 14 بوصة.",
+    "calories": 180.0,
+    "proteines": 8.0,
+    "glucides": 23.0,
+    "lipides": 6.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Popcorn salted",
+    "name_arabic": "ذرة",
+    "calories": 152.0,
+    "proteines": 3.0,
+    "glucides": 20.0,
+    "lipides": 7.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Puffed rice",
+    "name_arabic": "أرز منتفخ",
+    "calories": 55.0,
+    "proteines": 0,
+    "glucides": 12.0,
+    "lipides": 0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Puffed wheat presweetened",
+    "name_arabic": "قمح منتفخ محلى مسبقاً",
+    "calories": 105.0,
+    "proteines": 1.0,
+    "glucides": 26.0,
+    "lipides": 0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Rice",
+    "name_arabic": "أرز",
+    "calories": 748.0,
+    "proteines": 15.0,
+    "glucides": 154.0,
+    "lipides": 3.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Converted",
+    "name_arabic": "تحويلها",
+    "calories": 677.0,
+    "proteines": 14.0,
+    "glucides": 142.0,
+    "lipides": 0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "White",
+    "name_arabic": "أبيض",
+    "calories": 692.0,
+    "proteines": 14.0,
+    "glucides": 150.0,
+    "lipides": 0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Rice flakes",
+    "name_arabic": "رقائق الأرز",
+    "calories": 115.0,
+    "proteines": 2.0,
+    "glucides": 26.0,
+    "lipides": 0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Rice polish",
+    "name_arabic": "تلميع الأرز",
+    "calories": 132.0,
+    "proteines": 6.0,
+    "glucides": 28.0,
+    "lipides": 6.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Rolls",
+    "name_arabic": "لفات",
+    "calories": 411.0,
+    "proteines": 3.0,
+    "glucides": 23.0,
+    "lipides": 12.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "of refined flour",
+    "name_arabic": "من الدقيق المكرر",
+    "calories": 115.0,
+    "proteines": 3.0,
+    "glucides": 20.0,
+    "lipides": 2.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "whole-wheat",
+    "name_arabic": "كل الدقيق",
+    "calories": 102.0,
+    "proteines": 4.0,
+    "glucides": 20.0,
+    "lipides": 1.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Spaghetti with meat sauce",
+    "name_arabic": "سباجيتي بصلصة اللحم",
+    "calories": 285.0,
+    "proteines": 13.0,
+    "glucides": 35.0,
+    "lipides": 10.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "with tomatoes and cheese",
+    "name_arabic": "جبن",
+    "calories": 210.0,
+    "proteines": 6.0,
+    "glucides": 36.0,
+    "lipides": 5.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Spanish rice",
+    "name_arabic": "أرز اسباني",
+    "calories": 217.0,
+    "proteines": 4.0,
+    "glucides": 40.0,
+    "lipides": 4.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Shredded wheat biscuit",
+    "name_arabic": "بسكويت",
+    "calories": 100.0,
+    "proteines": 3.0,
+    "glucides": 23.0,
+    "lipides": 1.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Waffles",
+    "name_arabic": "الفطائر",
+    "calories": 240.0,
+    "proteines": 8.0,
+    "glucides": 30.0,
+    "lipides": 9.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Wheat germ",
+    "name_arabic": "جنين القمح",
+    "calories": 245.0,
+    "proteines": 17.0,
+    "glucides": 34.0,
+    "lipides": 7.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Wheat-germ cereal toasted",
+    "name_arabic": "حبوب جنين القمح المحمصة",
+    "calories": 260.0,
+    "proteines": 20.0,
+    "glucides": 36.0,
+    "lipides": 7.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Wheat meal cereal unrefined",
+    "name_arabic": "حبوب القمح غير المكررة",
+    "calories": 103.0,
+    "proteines": 4.0,
+    "glucides": 25.0,
+    "lipides": 1.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Wheat, cooked",
+    "name_arabic": "قمح، مطبوخ",
+    "calories": 275.0,
+    "proteines": 12.0,
+    "glucides": 35.0,
+    "lipides": 1.0,
+    "category": "Breads, cereals, fastfood,grains",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Bean soups",
+    "name_arabic": "شوربات",
+    "calories": 190.0,
+    "proteines": 8.0,
+    "glucides": 30.0,
+    "lipides": 5.0,
+    "category": "Soups",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Beef soup",
+    "name_arabic": "لحم بقر",
+    "calories": 100.0,
+    "proteines": 6.0,
+    "glucides": 11.0,
+    "lipides": 4.0,
+    "category": "Soups",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Bouillon",
+    "name_arabic": "مرق",
+    "calories": 24.0,
+    "proteines": 5.0,
+    "glucides": 0.0,
+    "lipides": 0.0,
+    "category": "Soups",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "chicken soup",
+    "name_arabic": "دجاج",
+    "calories": 75.0,
+    "proteines": 4.0,
+    "glucides": 10.0,
+    "lipides": 2.0,
+    "category": "Soups",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Clam chowder",
+    "name_arabic": "حساء البطلينوس",
+    "calories": 85.0,
+    "proteines": 5.0,
+    "glucides": 12.0,
+    "lipides": 2.0,
+    "category": "Soups",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cream soups",
+    "name_arabic": "كريمة",
+    "calories": 200.0,
+    "proteines": 7.0,
+    "glucides": 18.0,
+    "lipides": 12.0,
+    "category": "Soups",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Noodle",
+    "name_arabic": "المعكرونة",
+    "calories": 115.0,
+    "proteines": 6.0,
+    "glucides": 13.0,
+    "lipides": 4.0,
+    "category": "Soups",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Split-pea soup",
+    "name_arabic": "حساء البازلاء",
+    "calories": 147.0,
+    "proteines": 8.0,
+    "glucides": 25.0,
+    "lipides": 3.0,
+    "category": "Soups",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Tomato soup",
+    "name_arabic": "حساء الطماطم",
+    "calories": 175.0,
+    "proteines": 6.0,
+    "glucides": 22.0,
+    "lipides": 7.0,
+    "category": "Soups",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Vegetable",
+    "name_arabic": "خضروات",
+    "calories": 80.0,
+    "proteines": 4.0,
+    "glucides": 14.0,
+    "lipides": 2.0,
+    "category": "Soups",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Apple betty",
+    "name_arabic": "تفاح",
+    "calories": 150.0,
+    "proteines": 1.0,
+    "glucides": 29.0,
+    "lipides": 4.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Bread pudding",
+    "name_arabic": "بودنغ الخبز",
+    "calories": 374.0,
+    "proteines": 11.0,
+    "glucides": 56.0,
+    "lipides": 12.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cakes",
+    "name_arabic": "كعك",
+    "calories": 110.0,
+    "proteines": 3.0,
+    "glucides": 23.0,
+    "lipides": 0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Chocolate fudge",
+    "name_arabic": "كولا",
+    "calories": 420.0,
+    "proteines": 5.0,
+    "glucides": 70.0,
+    "lipides": 14.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cupcake",
+    "name_arabic": "كب كيك",
+    "calories": 160.0,
+    "proteines": 3.0,
+    "glucides": 31.0,
+    "lipides": 3.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Fruit cake",
+    "name_arabic": "كعكة الفاكهة",
+    "calories": 105.0,
+    "proteines": 2.0,
+    "glucides": 17.0,
+    "lipides": 4.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Gingerbread",
+    "name_arabic": "خبز الزنجبيل",
+    "calories": 180.0,
+    "proteines": 2.0,
+    "glucides": 28.0,
+    "lipides": 7.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Plain, with no icing",
+    "name_arabic": "عادي، مع عدم وجود الجليد",
+    "calories": 180.0,
+    "proteines": 4.0,
+    "glucides": 31.0,
+    "lipides": 5.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Sponge cake",
+    "name_arabic": "كعكة اسفنجية",
+    "calories": 115.0,
+    "proteines": 3.0,
+    "glucides": 22.0,
+    "lipides": 2.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Candy",
+    "name_arabic": "حلوى",
+    "calories": 104.0,
+    "proteines": 0,
+    "glucides": 19.0,
+    "lipides": 3.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Chocolate creams",
+    "name_arabic": "كريمة",
+    "calories": 130.0,
+    "proteines": 0,
+    "glucides": 24.0,
+    "lipides": 4.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Fudge",
+    "name_arabic": "حلوى",
+    "calories": 370.0,
+    "proteines": 0,
+    "glucides": 80.0,
+    "lipides": 12.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Hard candies",
+    "name_arabic": "الحلوى الصلبة",
+    "calories": 90.0,
+    "proteines": 0,
+    "glucides": 28.0,
+    "lipides": 0.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Marshmallows",
+    "name_arabic": "الخطمي",
+    "calories": 98.0,
+    "proteines": 1.0,
+    "glucides": 23.0,
+    "lipides": 0.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Milk chocolate",
+    "name_arabic": "حليب",
+    "calories": 290.0,
+    "proteines": 2.0,
+    "glucides": 44.0,
+    "lipides": 6.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Chocolate syrup",
+    "name_arabic": "كولا",
+    "calories": 80.0,
+    "proteines": 0,
+    "glucides": 22.0,
+    "lipides": 0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Doughnuts",
+    "name_arabic": "الكعك",
+    "calories": 135.0,
+    "proteines": 2.0,
+    "glucides": 17.0,
+    "lipides": 7.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Gelatin, made with water",
+    "name_arabic": "ماء",
+    "calories": 155.0,
+    "proteines": 4.0,
+    "glucides": 36.0,
+    "lipides": 0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Honey",
+    "name_arabic": "عسل",
+    "calories": 120.0,
+    "proteines": 0,
+    "glucides": 30.0,
+    "lipides": 0.0,
+    "category": "Jams, Jellies",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Ice cream",
+    "name_arabic": "آيس كريم",
+    "calories": 250.0,
+    "proteines": 0.0,
+    "glucides": 0.0,
+    "lipides": 0.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Ices",
+    "name_arabic": "الجليد",
+    "calories": 117.0,
+    "proteines": 0.0,
+    "glucides": 48.0,
+    "lipides": 0.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "preserves",
+    "name_arabic": "معلبات",
+    "calories": 55.0,
+    "proteines": 0.0,
+    "glucides": 14.0,
+    "lipides": 0.0,
+    "category": "Jams, Jellies",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Jellies",
+    "name_arabic": "مربى",
+    "calories": 50.0,
+    "proteines": 0.0,
+    "glucides": 13.0,
+    "lipides": 0.0,
+    "category": "Jams, Jellies",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Molasses",
+    "name_arabic": "دبس السكر",
+    "calories": 45.0,
+    "proteines": 0.0,
+    "glucides": 11.0,
+    "lipides": 0.0,
+    "category": "Jams, Jellies",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cane Syrup",
+    "name_arabic": "شراب قصب",
+    "calories": 50.0,
+    "proteines": 0.0,
+    "glucides": 13.0,
+    "lipides": 0.0,
+    "category": "Jams, Jellies",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "9\" diam. pie",
+    "name_arabic": "9قطر.فطيرة",
+    "calories": 330.0,
+    "proteines": 3.0,
+    "glucides": 53.0,
+    "lipides": 13.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cherry Pie",
+    "name_arabic": "فطيرة الكرز",
+    "calories": 340.0,
+    "proteines": 3.0,
+    "glucides": 55.0,
+    "lipides": 13.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Custard",
+    "name_arabic": "كاسترد",
+    "calories": 265.0,
+    "proteines": 7.0,
+    "glucides": 34.0,
+    "lipides": 11.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Lemon meringue",
+    "name_arabic": "مرنغ الليمون",
+    "calories": 300.0,
+    "proteines": 4.0,
+    "glucides": 45.0,
+    "lipides": 12.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Mince",
+    "name_arabic": "فرم",
+    "calories": 340.0,
+    "proteines": 3.0,
+    "glucides": 62.0,
+    "lipides": 9.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Pumpkin Pie",
+    "name_arabic": "فطيرة اليقطين",
+    "calories": 265.0,
+    "proteines": 5.0,
+    "glucides": 34.0,
+    "lipides": 12.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Puddings Sugar",
+    "name_arabic": "بودنغ السكر",
+    "calories": 770.0,
+    "proteines": 0.0,
+    "glucides": 199.0,
+    "lipides": 0.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "3 teaspoons sugar",
+    "name_arabic": "شاي",
+    "calories": 50.0,
+    "proteines": 0.0,
+    "glucides": 12.0,
+    "lipides": 0.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Brown, firm-packed, dark sugar",
+    "name_arabic": "سكر بني داكن ومعبأ بشكل متماسك",
+    "calories": 815.0,
+    "proteines": 0.0,
+    "glucides": 210.0,
+    "lipides": 0,
+    "category": "Jams, Jellies",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Syrup",
+    "name_arabic": "شراب",
+    "calories": 100.0,
+    "proteines": 0.0,
+    "glucides": 25.0,
+    "lipides": 0.0,
+    "category": "Jams, Jellies",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "table blends sugar",
+    "name_arabic": "الجدول يمزج السكر",
+    "calories": 110.0,
+    "proteines": 0.0,
+    "glucides": 29.0,
+    "lipides": 0.0,
+    "category": "Jams, Jellies",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Tapioca cream pudding",
+    "name_arabic": "كريمة",
+    "calories": 335.0,
+    "proteines": 10.0,
+    "glucides": 42.0,
+    "lipides": 10.0,
+    "category": "Desserts, sweets",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Almonds",
+    "name_arabic": "اللوز",
+    "calories": 425.0,
+    "proteines": 13.0,
+    "glucides": 13.0,
+    "lipides": 38.0,
+    "category": "Seeds and Nuts",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "roasted and salted",
+    "name_arabic": "محمص ومملح",
+    "calories": 439.0,
+    "proteines": 13.0,
+    "glucides": 13.0,
+    "lipides": 40.0,
+    "category": "Seeds and Nuts",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Brazil nuts",
+    "name_arabic": "جوز برازيلي",
+    "calories": 457.0,
+    "proteines": 10.0,
+    "glucides": 7.0,
+    "lipides": 47.0,
+    "category": "Seeds and Nuts",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cashews",
+    "name_arabic": "الكاجو",
+    "calories": 392.0,
+    "proteines": 12.0,
+    "glucides": 20.0,
+    "lipides": 32.0,
+    "category": "Seeds and Nuts",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "coconut sweetened",
+    "name_arabic": "جوز الهند المحلى",
+    "calories": 274.0,
+    "proteines": 1.0,
+    "glucides": 26.0,
+    "lipides": 20.0,
+    "category": "Seeds and Nuts",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Peanut butter",
+    "name_arabic": "زبدة",
+    "calories": 300.0,
+    "proteines": 12.0,
+    "glucides": 9.0,
+    "lipides": 25.0,
+    "category": "Seeds and Nuts",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Peanut butter, natural",
+    "name_arabic": "زبدة",
+    "calories": 284.0,
+    "proteines": 13.0,
+    "glucides": 8.0,
+    "lipides": 24.0,
+    "category": "Seeds and Nuts",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Peanuts",
+    "name_arabic": "الفول السوداني",
+    "calories": 290.0,
+    "proteines": 13.0,
+    "glucides": 9.0,
+    "lipides": 25.0,
+    "category": "Seeds and Nuts",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Pecans",
+    "name_arabic": "البقان",
+    "calories": 343.0,
+    "proteines": 5.0,
+    "glucides": 7.0,
+    "lipides": 35.0,
+    "category": "Seeds and Nuts",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Sesame seeds",
+    "name_arabic": "بذور السمسم",
+    "calories": 280.0,
+    "proteines": 9.0,
+    "glucides": 10.0,
+    "lipides": 24.0,
+    "category": "Seeds and Nuts",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Sunflower seeds",
+    "name_arabic": "بذور عباد الشمس",
+    "calories": 280.0,
+    "proteines": 12.0,
+    "glucides": 10.0,
+    "lipides": 26.0,
+    "category": "Seeds and Nuts",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Walnuts",
+    "name_arabic": "الجوز",
+    "calories": 325.0,
+    "proteines": 7.0,
+    "glucides": 8.0,
+    "lipides": 32.0,
+    "category": "Seeds and Nuts",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Beer",
+    "name_arabic": "جعة",
+    "calories": 228.0,
+    "proteines": 0,
+    "glucides": 8.0,
+    "lipides": 0.0,
+    "category": "Drinks,Alcohol, Beverages",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Gin",
+    "name_arabic": "شرك",
+    "calories": 70.0,
+    "proteines": 0.0,
+    "glucides": 0,
+    "lipides": 0.0,
+    "category": "Drinks,Alcohol, Beverages",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Wines",
+    "name_arabic": "النبيذ",
+    "calories": 164.0,
+    "proteines": 0,
+    "glucides": 9.0,
+    "lipides": 0.0,
+    "category": "Drinks,Alcohol, Beverages",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Table (12.2% alcohol)",
+    "name_arabic": "الجدول",
+    "calories": 100.0,
+    "proteines": 0,
+    "glucides": 5.0,
+    "lipides": 0.0,
+    "category": "Drinks,Alcohol, Beverages",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Cola drinks",
+    "name_arabic": "كولا",
+    "calories": 137.0,
+    "proteines": 0.0,
+    "glucides": 38.0,
+    "lipides": 0.0,
+    "category": "Drinks,Alcohol, Beverages",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Fruit-flavored soda",
+    "name_arabic": "مشروب غازي",
+    "calories": 161.0,
+    "proteines": 0.0,
+    "glucides": 42.0,
+    "lipides": 0.0,
+    "category": "Drinks,Alcohol, Beverages",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Ginger ale",
+    "name_arabic": "الزنجبيل",
+    "calories": 105.0,
+    "proteines": 0.0,
+    "glucides": 28.0,
+    "lipides": 0.0,
+    "category": "Drinks,Alcohol, Beverages",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Root beer",
+    "name_arabic": "بيرة الجذر",
+    "calories": 140.0,
+    "proteines": 0.0,
+    "glucides": 35.0,
+    "lipides": 0.0,
+    "category": "Drinks,Alcohol, Beverages",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Coffee",
+    "name_arabic": "قهوة",
+    "calories": 3.0,
+    "proteines": 0,
+    "glucides": 1.0,
+    "lipides": 0.0,
+    "category": "Drinks,Alcohol, Beverages",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Tea",
+    "name_arabic": "ستيك",
+    "calories": 4.0,
+    "proteines": 0.0,
+    "glucides": 1.0,
+    "lipides": 0,
+    "category": "Drinks,Alcohol, Beverages",
+    "source": "nutrients_csvfile.csv"
+  },
+  {
+    "name_english": "Egg McMuffin",
+    "name_arabic": "ماك مافن",
+    "calories": 300.0,
+    "proteines": 17.0,
+    "glucides": 31.0,
+    "lipides": 13.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Egg White Delight",
+    "name_arabic": "فرحة البيض الأبيض",
+    "calories": 250.0,
+    "proteines": 18.0,
+    "glucides": 30.0,
+    "lipides": 8.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sausage McMuffin",
+    "name_arabic": "سجق",
+    "calories": 370.0,
+    "proteines": 14.0,
+    "glucides": 29.0,
+    "lipides": 23.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sausage McMuffin with Egg",
+    "name_arabic": "سجق",
+    "calories": 450.0,
+    "proteines": 21.0,
+    "glucides": 30.0,
+    "lipides": 28.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sausage McMuffin with Egg Whites",
+    "name_arabic": "سجق",
+    "calories": 400.0,
+    "proteines": 21.0,
+    "glucides": 30.0,
+    "lipides": 23.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Steak & Egg McMuffin",
+    "name_arabic": "ستيك",
+    "calories": 430.0,
+    "proteines": 26.0,
+    "glucides": 31.0,
+    "lipides": 23.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Bacon, Egg & Cheese Biscuit (Regular Biscuit)",
+    "name_arabic": "جبن",
+    "calories": 460.0,
+    "proteines": 19.0,
+    "glucides": 38.0,
+    "lipides": 26.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Bacon, Egg & Cheese Biscuit (Large Biscuit)",
+    "name_arabic": "جبن",
+    "calories": 520.0,
+    "proteines": 19.0,
+    "glucides": 43.0,
+    "lipides": 30.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Bacon, Egg & Cheese Biscuit with Egg Whites (Regular Biscuit)",
+    "name_arabic": "جبن",
+    "calories": 410.0,
+    "proteines": 20.0,
+    "glucides": 36.0,
+    "lipides": 20.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Bacon, Egg & Cheese Biscuit with Egg Whites (Large Biscuit)",
+    "name_arabic": "جبن",
+    "calories": 470.0,
+    "proteines": 20.0,
+    "glucides": 42.0,
+    "lipides": 25.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sausage Biscuit (Regular Biscuit)",
+    "name_arabic": "سجق",
+    "calories": 430.0,
+    "proteines": 11.0,
+    "glucides": 34.0,
+    "lipides": 27.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sausage Biscuit (Large Biscuit)",
+    "name_arabic": "سجق",
+    "calories": 480.0,
+    "proteines": 11.0,
+    "glucides": 39.0,
+    "lipides": 31.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sausage Biscuit with Egg (Regular Biscuit)",
+    "name_arabic": "سجق",
+    "calories": 510.0,
+    "proteines": 18.0,
+    "glucides": 36.0,
+    "lipides": 33.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sausage Biscuit with Egg (Large Biscuit)",
+    "name_arabic": "سجق",
+    "calories": 570.0,
+    "proteines": 18.0,
+    "glucides": 42.0,
+    "lipides": 37.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sausage Biscuit with Egg Whites (Regular Biscuit)",
+    "name_arabic": "سجق",
+    "calories": 460.0,
+    "proteines": 18.0,
+    "glucides": 34.0,
+    "lipides": 27.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sausage Biscuit with Egg Whites (Large Biscuit)",
+    "name_arabic": "سجق",
+    "calories": 520.0,
+    "proteines": 18.0,
+    "glucides": 40.0,
+    "lipides": 32.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Southern Style Chicken Biscuit (Regular Biscuit)",
+    "name_arabic": "دجاج",
+    "calories": 410.0,
+    "proteines": 17.0,
+    "glucides": 41.0,
+    "lipides": 20.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Southern Style Chicken Biscuit (Large Biscuit)",
+    "name_arabic": "دجاج",
+    "calories": 470.0,
+    "proteines": 17.0,
+    "glucides": 46.0,
+    "lipides": 24.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Steak & Egg Biscuit (Regular Biscuit)",
+    "name_arabic": "ستيك",
+    "calories": 540.0,
+    "proteines": 25.0,
+    "glucides": 38.0,
+    "lipides": 32.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Bacon, Egg & Cheese McGriddles",
+    "name_arabic": "جبن",
+    "calories": 460.0,
+    "proteines": 19.0,
+    "glucides": 48.0,
+    "lipides": 21.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Bacon, Egg & Cheese McGriddles with Egg Whites",
+    "name_arabic": "جبن",
+    "calories": 400.0,
+    "proteines": 20.0,
+    "glucides": 47.0,
+    "lipides": 15.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sausage McGriddles",
+    "name_arabic": "سجق",
+    "calories": 420.0,
+    "proteines": 11.0,
+    "glucides": 44.0,
+    "lipides": 22.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sausage, Egg & Cheese McGriddles",
+    "name_arabic": "جبن",
+    "calories": 550.0,
+    "proteines": 20.0,
+    "glucides": 48.0,
+    "lipides": 31.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sausage, Egg & Cheese McGriddles with Egg Whites",
+    "name_arabic": "جبن",
+    "calories": 500.0,
+    "proteines": 21.0,
+    "glucides": 46.0,
+    "lipides": 26.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Bacon, Egg & Cheese Bagel",
+    "name_arabic": "جبن",
+    "calories": 620.0,
+    "proteines": 30.0,
+    "glucides": 57.0,
+    "lipides": 31.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Bacon, Egg & Cheese Bagel with Egg Whites",
+    "name_arabic": "جبن",
+    "calories": 570.0,
+    "proteines": 30.0,
+    "glucides": 55.0,
+    "lipides": 25.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Steak, Egg & Cheese Bagel",
+    "name_arabic": "جبن",
+    "calories": 670.0,
+    "proteines": 33.0,
+    "glucides": 56.0,
+    "lipides": 35.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Big Breakfast (Regular Biscuit)",
+    "name_arabic": "بسكويت",
+    "calories": 740.0,
+    "proteines": 28.0,
+    "glucides": 51.0,
+    "lipides": 48.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Big Breakfast (Large Biscuit)",
+    "name_arabic": "بسكويت",
+    "calories": 800.0,
+    "proteines": 28.0,
+    "glucides": 56.0,
+    "lipides": 52.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Big Breakfast with Egg Whites (Regular Biscuit)",
+    "name_arabic": "بسكويت",
+    "calories": 640.0,
+    "proteines": 26.0,
+    "glucides": 50.0,
+    "lipides": 37.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Big Breakfast with Egg Whites (Large Biscuit)",
+    "name_arabic": "بسكويت",
+    "calories": 690.0,
+    "proteines": 26.0,
+    "glucides": 55.0,
+    "lipides": 41.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Big Breakfast with Hotcakes (Regular Biscuit)",
+    "name_arabic": "بسكويت",
+    "calories": 1090.0,
+    "proteines": 36.0,
+    "glucides": 111.0,
+    "lipides": 56.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Big Breakfast with Hotcakes (Large Biscuit)",
+    "name_arabic": "بسكويت",
+    "calories": 1150.0,
+    "proteines": 36.0,
+    "glucides": 116.0,
+    "lipides": 60.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Big Breakfast with Hotcakes and Egg Whites (Regular Biscuit)",
+    "name_arabic": "بسكويت",
+    "calories": 990.0,
+    "proteines": 35.0,
+    "glucides": 110.0,
+    "lipides": 46.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Big Breakfast with Hotcakes and Egg Whites (Large Biscuit)",
+    "name_arabic": "بسكويت",
+    "calories": 1050.0,
+    "proteines": 35.0,
+    "glucides": 115.0,
+    "lipides": 50.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hotcakes",
+    "name_arabic": "الكعك الساخن",
+    "calories": 350.0,
+    "proteines": 8.0,
+    "glucides": 60.0,
+    "lipides": 9.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hotcakes and Sausage",
+    "name_arabic": "سجق",
+    "calories": 520.0,
+    "proteines": 15.0,
+    "glucides": 61.0,
+    "lipides": 24.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sausage Burrito",
+    "name_arabic": "سجق",
+    "calories": 300.0,
+    "proteines": 12.0,
+    "glucides": 26.0,
+    "lipides": 16.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hash Brown",
+    "name_arabic": "هاش براون",
+    "calories": 150.0,
+    "proteines": 1.0,
+    "glucides": 15.0,
+    "lipides": 9.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Cinnamon Melts",
+    "name_arabic": "تذوب القرفة",
+    "calories": 460.0,
+    "proteines": 6.0,
+    "glucides": 66.0,
+    "lipides": 19.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Fruit & Maple Oatmeal",
+    "name_arabic": "دقيق الشوفان بالفواكه والقيقب",
+    "calories": 290.0,
+    "proteines": 5.0,
+    "glucides": 58.0,
+    "lipides": 4.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Fruit & Maple Oatmeal without Brown Sugar",
+    "name_arabic": "دقيق الشوفان بالفواكه والقيقب بدون سكر بني",
+    "calories": 260.0,
+    "proteines": 5.0,
+    "glucides": 49.0,
+    "lipides": 4.0,
+    "category": "Breakfast",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Big Mac",
+    "name_arabic": "بيغ ماك",
+    "calories": 530.0,
+    "proteines": 24.0,
+    "glucides": 47.0,
+    "lipides": 27.0,
+    "category": "Beef & Pork",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Quarter Pounder with Cheese",
+    "name_arabic": "جبن",
+    "calories": 520.0,
+    "proteines": 30.0,
+    "glucides": 41.0,
+    "lipides": 26.0,
+    "category": "Beef & Pork",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Quarter Pounder with Bacon & Cheese",
+    "name_arabic": "جبن",
+    "calories": 600.0,
+    "proteines": 37.0,
+    "glucides": 48.0,
+    "lipides": 29.0,
+    "category": "Beef & Pork",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Quarter Pounder with Bacon Habanero Ranch",
+    "name_arabic": "بيكون",
+    "calories": 610.0,
+    "proteines": 37.0,
+    "glucides": 46.0,
+    "lipides": 31.0,
+    "category": "Beef & Pork",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Quarter Pounder Deluxe",
+    "name_arabic": "ربع رطل",
+    "calories": 540.0,
+    "proteines": 29.0,
+    "glucides": 45.0,
+    "lipides": 27.0,
+    "category": "Beef & Pork",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Double Quarter Pounder with Cheese",
+    "name_arabic": "جبن",
+    "calories": 750.0,
+    "proteines": 48.0,
+    "glucides": 42.0,
+    "lipides": 43.0,
+    "category": "Beef & Pork",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hamburger",
+    "name_arabic": "هامبرغر",
+    "calories": 240.0,
+    "proteines": 12.0,
+    "glucides": 32.0,
+    "lipides": 8.0,
+    "category": "Beef & Pork",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Cheeseburger",
+    "name_arabic": "جبن",
+    "calories": 290.0,
+    "proteines": 15.0,
+    "glucides": 33.0,
+    "lipides": 11.0,
+    "category": "Beef & Pork",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Double Cheeseburger",
+    "name_arabic": "جبن",
+    "calories": 430.0,
+    "proteines": 24.0,
+    "glucides": 35.0,
+    "lipides": 21.0,
+    "category": "Beef & Pork",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Bacon Clubhouse Burger",
+    "name_arabic": "بيكون",
+    "calories": 720.0,
+    "proteines": 39.0,
+    "glucides": 51.0,
+    "lipides": 40.0,
+    "category": "Beef & Pork",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "McDouble",
+    "name_arabic": "ماكدوبل",
+    "calories": 380.0,
+    "proteines": 22.0,
+    "glucides": 34.0,
+    "lipides": 17.0,
+    "category": "Beef & Pork",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Bacon McDouble",
+    "name_arabic": "بيكون",
+    "calories": 440.0,
+    "proteines": 27.0,
+    "glucides": 35.0,
+    "lipides": 22.0,
+    "category": "Beef & Pork",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Daily Double",
+    "name_arabic": "يومي مزدوج",
+    "calories": 430.0,
+    "proteines": 22.0,
+    "glucides": 34.0,
+    "lipides": 22.0,
+    "category": "Beef & Pork",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Jalapeño Double",
+    "name_arabic": "هالابينو دبل",
+    "calories": 430.0,
+    "proteines": 22.0,
+    "glucides": 35.0,
+    "lipides": 23.0,
+    "category": "Beef & Pork",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "McRib",
+    "name_arabic": "ماكريب",
+    "calories": 500.0,
+    "proteines": 22.0,
+    "glucides": 44.0,
+    "lipides": 26.0,
+    "category": "Beef & Pork",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium Crispy Chicken Classic Sandwich",
+    "name_arabic": "دجاج",
+    "calories": 510.0,
+    "proteines": 24.0,
+    "glucides": 55.0,
+    "lipides": 22.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium Grilled Chicken Classic Sandwich",
+    "name_arabic": "دجاج",
+    "calories": 350.0,
+    "proteines": 28.0,
+    "glucides": 42.0,
+    "lipides": 9.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium Crispy Chicken Club Sandwich",
+    "name_arabic": "دجاج",
+    "calories": 670.0,
+    "proteines": 36.0,
+    "glucides": 58.0,
+    "lipides": 33.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium Grilled Chicken Club Sandwich",
+    "name_arabic": "دجاج",
+    "calories": 510.0,
+    "proteines": 40.0,
+    "glucides": 44.0,
+    "lipides": 20.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium Crispy Chicken Ranch BLT Sandwich",
+    "name_arabic": "دجاج",
+    "calories": 610.0,
+    "proteines": 32.0,
+    "glucides": 57.0,
+    "lipides": 28.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium Grilled Chicken Ranch BLT Sandwich",
+    "name_arabic": "دجاج",
+    "calories": 450.0,
+    "proteines": 36.0,
+    "glucides": 43.0,
+    "lipides": 15.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Bacon Clubhouse Crispy Chicken Sandwich",
+    "name_arabic": "بيكون",
+    "calories": 750.0,
+    "proteines": 36.0,
+    "glucides": 65.0,
+    "lipides": 38.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Bacon Clubhouse Grilled Chicken Sandwich",
+    "name_arabic": "بيكون",
+    "calories": 590.0,
+    "proteines": 40.0,
+    "glucides": 51.0,
+    "lipides": 25.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Southern Style Crispy Chicken Sandwich",
+    "name_arabic": "دجاج",
+    "calories": 430.0,
+    "proteines": 21.0,
+    "glucides": 43.0,
+    "lipides": 19.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "McChicken",
+    "name_arabic": "دجاج",
+    "calories": 360.0,
+    "proteines": 14.0,
+    "glucides": 40.0,
+    "lipides": 16.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Bacon Cheddar McChicken",
+    "name_arabic": "جبن شيدر",
+    "calories": 480.0,
+    "proteines": 22.0,
+    "glucides": 43.0,
+    "lipides": 24.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Bacon Buffalo Ranch McChicken",
+    "name_arabic": "بيكون",
+    "calories": 430.0,
+    "proteines": 20.0,
+    "glucides": 41.0,
+    "lipides": 21.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Buffalo Ranch McChicken",
+    "name_arabic": "دجاج",
+    "calories": 360.0,
+    "proteines": 14.0,
+    "glucides": 40.0,
+    "lipides": 16.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium McWrap Chicken & Bacon (Crispy Chicken)",
+    "name_arabic": "بيكون",
+    "calories": 630.0,
+    "proteines": 32.0,
+    "glucides": 56.0,
+    "lipides": 32.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium McWrap Chicken & Bacon (Grilled Chicken)",
+    "name_arabic": "بيكون",
+    "calories": 480.0,
+    "proteines": 36.0,
+    "glucides": 42.0,
+    "lipides": 19.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium McWrap Chicken & Ranch (Crispy Chicken)",
+    "name_arabic": "دجاج",
+    "calories": 610.0,
+    "proteines": 27.0,
+    "glucides": 56.0,
+    "lipides": 31.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium McWrap Chicken & Ranch (Grilled Chicken)",
+    "name_arabic": "دجاج",
+    "calories": 450.0,
+    "proteines": 30.0,
+    "glucides": 42.0,
+    "lipides": 18.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium McWrap Southwest Chicken (Crispy Chicken)",
+    "name_arabic": "دجاج",
+    "calories": 670.0,
+    "proteines": 27.0,
+    "glucides": 68.0,
+    "lipides": 33.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium McWrap Southwest Chicken (Grilled Chicken)",
+    "name_arabic": "دجاج",
+    "calories": 520.0,
+    "proteines": 31.0,
+    "glucides": 55.0,
+    "lipides": 20.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium McWrap Chicken Sweet Chili (Crispy Chicken)",
+    "name_arabic": "دجاج",
+    "calories": 540.0,
+    "proteines": 23.0,
+    "glucides": 61.0,
+    "lipides": 23.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium McWrap Chicken Sweet Chili (Grilled Chicken)",
+    "name_arabic": "دجاج",
+    "calories": 380.0,
+    "proteines": 27.0,
+    "glucides": 47.0,
+    "lipides": 10.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Chicken McNuggets (4 piece)",
+    "name_arabic": "دجاج",
+    "calories": 190.0,
+    "proteines": 9.0,
+    "glucides": 12.0,
+    "lipides": 12.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Chicken McNuggets (6 piece)",
+    "name_arabic": "دجاج",
+    "calories": 280.0,
+    "proteines": 13.0,
+    "glucides": 18.0,
+    "lipides": 18.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Chicken McNuggets (10 piece)",
+    "name_arabic": "دجاج",
+    "calories": 470.0,
+    "proteines": 22.0,
+    "glucides": 30.0,
+    "lipides": 30.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Chicken McNuggets (20 piece)",
+    "name_arabic": "دجاج",
+    "calories": 940.0,
+    "proteines": 44.0,
+    "glucides": 59.0,
+    "lipides": 59.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Chicken McNuggets (40 piece)",
+    "name_arabic": "دجاج",
+    "calories": 1880.0,
+    "proteines": 87.0,
+    "glucides": 118.0,
+    "lipides": 118.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Filet-O-Fish",
+    "name_arabic": "سمك",
+    "calories": 390.0,
+    "proteines": 15.0,
+    "glucides": 39.0,
+    "lipides": 19.0,
+    "category": "Chicken & Fish",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium Bacon Ranch Salad (without Chicken)",
+    "name_arabic": "بيكون",
+    "calories": 140.0,
+    "proteines": 9.0,
+    "glucides": 10.0,
+    "lipides": 7.0,
+    "category": "Salads",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium Bacon Ranch Salad with Crispy Chicken",
+    "name_arabic": "بيكون",
+    "calories": 380.0,
+    "proteines": 25.0,
+    "glucides": 22.0,
+    "lipides": 21.0,
+    "category": "Salads",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium Bacon Ranch Salad with Grilled Chicken",
+    "name_arabic": "بيكون",
+    "calories": 220.0,
+    "proteines": 29.0,
+    "glucides": 8.0,
+    "lipides": 8.0,
+    "category": "Salads",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium Southwest Salad (without Chicken)",
+    "name_arabic": "دجاج",
+    "calories": 140.0,
+    "proteines": 6.0,
+    "glucides": 20.0,
+    "lipides": 4.5,
+    "category": "Salads",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium Southwest Salad with Crispy Chicken",
+    "name_arabic": "دجاج",
+    "calories": 450.0,
+    "proteines": 23.0,
+    "glucides": 42.0,
+    "lipides": 22.0,
+    "category": "Salads",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Premium Southwest Salad with Grilled Chicken",
+    "name_arabic": "دجاج",
+    "calories": 290.0,
+    "proteines": 27.0,
+    "glucides": 28.0,
+    "lipides": 8.0,
+    "category": "Salads",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Chipotle BBQ Snack Wrap (Crispy Chicken)",
+    "name_arabic": "دجاج",
+    "calories": 340.0,
+    "proteines": 14.0,
+    "glucides": 37.0,
+    "lipides": 15.0,
+    "category": "Snacks & Sides",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Chipotle BBQ Snack Wrap (Grilled Chicken)",
+    "name_arabic": "دجاج",
+    "calories": 260.0,
+    "proteines": 16.0,
+    "glucides": 30.0,
+    "lipides": 8.0,
+    "category": "Snacks & Sides",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Honey Mustard Snack Wrap (Crispy Chicken)",
+    "name_arabic": "دجاج",
+    "calories": 330.0,
+    "proteines": 14.0,
+    "glucides": 34.0,
+    "lipides": 15.0,
+    "category": "Snacks & Sides",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Honey Mustard Snack Wrap (Grilled Chicken)",
+    "name_arabic": "دجاج",
+    "calories": 250.0,
+    "proteines": 16.0,
+    "glucides": 27.0,
+    "lipides": 8.0,
+    "category": "Snacks & Sides",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Ranch Snack Wrap (Crispy Chicken)",
+    "name_arabic": "دجاج",
+    "calories": 360.0,
+    "proteines": 15.0,
+    "glucides": 32.0,
+    "lipides": 20.0,
+    "category": "Snacks & Sides",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Ranch Snack Wrap (Grilled Chicken)",
+    "name_arabic": "دجاج",
+    "calories": 280.0,
+    "proteines": 16.0,
+    "glucides": 25.0,
+    "lipides": 13.0,
+    "category": "Snacks & Sides",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Small French Fries",
+    "name_arabic": "بطاطس مقلية",
+    "calories": 230.0,
+    "proteines": 2.0,
+    "glucides": 30.0,
+    "lipides": 11.0,
+    "category": "Snacks & Sides",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Medium French Fries",
+    "name_arabic": "بطاطس مقلية",
+    "calories": 340.0,
+    "proteines": 4.0,
+    "glucides": 44.0,
+    "lipides": 16.0,
+    "category": "Snacks & Sides",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Large French Fries",
+    "name_arabic": "بطاطس مقلية",
+    "calories": 510.0,
+    "proteines": 6.0,
+    "glucides": 67.0,
+    "lipides": 24.0,
+    "category": "Snacks & Sides",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Kids French Fries",
+    "name_arabic": "بطاطس مقلية",
+    "calories": 110.0,
+    "proteines": 1.0,
+    "glucides": 15.0,
+    "lipides": 5.0,
+    "category": "Snacks & Sides",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Side Salad",
+    "name_arabic": "سلطة",
+    "calories": 20.0,
+    "proteines": 1.0,
+    "glucides": 4.0,
+    "lipides": 0.0,
+    "category": "Snacks & Sides",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Apple Slices",
+    "name_arabic": "تفاح",
+    "calories": 15.0,
+    "proteines": 0.0,
+    "glucides": 4.0,
+    "lipides": 0.0,
+    "category": "Snacks & Sides",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Fruit 'n Yogurt Parfait",
+    "name_arabic": "بارفيه الفواكه والزبادي",
+    "calories": 150.0,
+    "proteines": 4.0,
+    "glucides": 30.0,
+    "lipides": 2.0,
+    "category": "Snacks & Sides",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Baked Apple Pie",
+    "name_arabic": "تفاح",
+    "calories": 250.0,
+    "proteines": 2.0,
+    "glucides": 32.0,
+    "lipides": 13.0,
+    "category": "Desserts",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Chocolate Chip Cookie",
+    "name_arabic": "كولا",
+    "calories": 160.0,
+    "proteines": 2.0,
+    "glucides": 21.0,
+    "lipides": 8.0,
+    "category": "Desserts",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Oatmeal Raisin Cookie",
+    "name_arabic": "بسكويت الشوفان والزبيب",
+    "calories": 150.0,
+    "proteines": 2.0,
+    "glucides": 22.0,
+    "lipides": 6.0,
+    "category": "Desserts",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Kids Ice Cream Cone",
+    "name_arabic": "آيس كريم",
+    "calories": 45.0,
+    "proteines": 1.0,
+    "glucides": 7.0,
+    "lipides": 1.5,
+    "category": "Desserts",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hot Fudge Sundae",
+    "name_arabic": "مثلجات الفدج الساخنة",
+    "calories": 330.0,
+    "proteines": 8.0,
+    "glucides": 53.0,
+    "lipides": 9.0,
+    "category": "Desserts",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hot Caramel Sundae",
+    "name_arabic": "حلوى الكراميل الساخنة",
+    "calories": 340.0,
+    "proteines": 7.0,
+    "glucides": 60.0,
+    "lipides": 8.0,
+    "category": "Desserts",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Strawberry Sundae",
+    "name_arabic": "فراولة",
+    "calories": 280.0,
+    "proteines": 6.0,
+    "glucides": 49.0,
+    "lipides": 6.0,
+    "category": "Desserts",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Coca-Cola Classic (Small)",
+    "name_arabic": "كولا",
+    "calories": 140.0,
+    "proteines": 0.0,
+    "glucides": 39.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Coca-Cola Classic (Medium)",
+    "name_arabic": "كولا",
+    "calories": 200.0,
+    "proteines": 0.0,
+    "glucides": 55.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Coca-Cola Classic (Large)",
+    "name_arabic": "كولا",
+    "calories": 280.0,
+    "proteines": 0.0,
+    "glucides": 76.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Coca-Cola Classic (Child)",
+    "name_arabic": "كولا",
+    "calories": 100.0,
+    "proteines": 0.0,
+    "glucides": 28.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Dr Pepper (Small)",
+    "name_arabic": "دكتور بيبر",
+    "calories": 140.0,
+    "proteines": 0.0,
+    "glucides": 37.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Dr Pepper (Medium)",
+    "name_arabic": "دكتور بيبر",
+    "calories": 190.0,
+    "proteines": 0.0,
+    "glucides": 53.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Dr Pepper (Large)",
+    "name_arabic": "دكتور بيبر",
+    "calories": 270.0,
+    "proteines": 0.0,
+    "glucides": 72.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Dr Pepper (Child)",
+    "name_arabic": "دكتور بيبر",
+    "calories": 100.0,
+    "proteines": 0.0,
+    "glucides": 27.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sprite (Small)",
+    "name_arabic": "سبرايت",
+    "calories": 140.0,
+    "proteines": 0.0,
+    "glucides": 37.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sprite (Medium)",
+    "name_arabic": "سبرايت",
+    "calories": 200.0,
+    "proteines": 0.0,
+    "glucides": 54.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sprite (Large)",
+    "name_arabic": "سبرايت",
+    "calories": 280.0,
+    "proteines": 0.0,
+    "glucides": 74.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sprite (Child)",
+    "name_arabic": "سبرايت",
+    "calories": 100.0,
+    "proteines": 0.0,
+    "glucides": 27.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "1% Low Fat Milk Jug",
+    "name_arabic": "حليب",
+    "calories": 100.0,
+    "proteines": 8.0,
+    "glucides": 12.0,
+    "lipides": 2.5,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Fat Free Chocolate Milk Jug",
+    "name_arabic": "حليب",
+    "calories": 130.0,
+    "proteines": 9.0,
+    "glucides": 23.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Minute Maid 100% Apple Juice Box",
+    "name_arabic": "تفاح",
+    "calories": 80.0,
+    "proteines": 0.0,
+    "glucides": 21.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Minute Maid Orange Juice (Small)",
+    "name_arabic": "برتقال",
+    "calories": 150.0,
+    "proteines": 2.0,
+    "glucides": 34.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Minute Maid Orange Juice (Medium)",
+    "name_arabic": "برتقال",
+    "calories": 190.0,
+    "proteines": 3.0,
+    "glucides": 44.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Minute Maid Orange Juice (Large)",
+    "name_arabic": "برتقال",
+    "calories": 280.0,
+    "proteines": 4.0,
+    "glucides": 65.0,
+    "lipides": 0.0,
+    "category": "Beverages",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sweet Tea (Small)",
+    "name_arabic": "شاي",
+    "calories": 150.0,
+    "proteines": 1.0,
+    "glucides": 36.0,
+    "lipides": 0.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sweet Tea (Medium)",
+    "name_arabic": "شاي",
+    "calories": 180.0,
+    "proteines": 1.0,
+    "glucides": 45.0,
+    "lipides": 0.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sweet Tea (Large)",
+    "name_arabic": "شاي",
+    "calories": 220.0,
+    "proteines": 1.0,
+    "glucides": 54.0,
+    "lipides": 0.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Sweet Tea (Child)",
+    "name_arabic": "شاي",
+    "calories": 110.0,
+    "proteines": 0.0,
+    "glucides": 27.0,
+    "lipides": 0.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Latte (Small)",
+    "name_arabic": "لاتيه",
+    "calories": 170.0,
+    "proteines": 9.0,
+    "glucides": 15.0,
+    "lipides": 9.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Latte (Medium)",
+    "name_arabic": "لاتيه",
+    "calories": 210.0,
+    "proteines": 11.0,
+    "glucides": 18.0,
+    "lipides": 10.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Latte (Large)",
+    "name_arabic": "لاتيه",
+    "calories": 280.0,
+    "proteines": 15.0,
+    "glucides": 24.0,
+    "lipides": 14.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Caramel Latte (Small)",
+    "name_arabic": "لاتيه",
+    "calories": 270.0,
+    "proteines": 9.0,
+    "glucides": 40.0,
+    "lipides": 9.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Caramel Latte (Medium)",
+    "name_arabic": "لاتيه",
+    "calories": 340.0,
+    "proteines": 11.0,
+    "glucides": 50.0,
+    "lipides": 10.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Caramel Latte (Large)",
+    "name_arabic": "لاتيه",
+    "calories": 430.0,
+    "proteines": 15.0,
+    "glucides": 62.0,
+    "lipides": 14.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hazelnut Latte (Small)",
+    "name_arabic": "لاتيه",
+    "calories": 270.0,
+    "proteines": 9.0,
+    "glucides": 40.0,
+    "lipides": 9.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hazelnut Latte (Medium)",
+    "name_arabic": "لاتيه",
+    "calories": 330.0,
+    "proteines": 11.0,
+    "glucides": 50.0,
+    "lipides": 10.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hazelnut Latte (Large)",
+    "name_arabic": "لاتيه",
+    "calories": 430.0,
+    "proteines": 15.0,
+    "glucides": 62.0,
+    "lipides": 14.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "French Vanilla Latte (Small)",
+    "name_arabic": "لاتيه",
+    "calories": 260.0,
+    "proteines": 9.0,
+    "glucides": 38.0,
+    "lipides": 9.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "French Vanilla Latte (Medium)",
+    "name_arabic": "لاتيه",
+    "calories": 330.0,
+    "proteines": 11.0,
+    "glucides": 48.0,
+    "lipides": 10.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "French Vanilla Latte (Large)",
+    "name_arabic": "لاتيه",
+    "calories": 420.0,
+    "proteines": 15.0,
+    "glucides": 60.0,
+    "lipides": 14.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Latte with Sugar Free French Vanilla Syrup (Small)",
+    "name_arabic": "لاتيه",
+    "calories": 210.0,
+    "proteines": 9.0,
+    "glucides": 24.0,
+    "lipides": 9.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Latte with Sugar Free French Vanilla Syrup (Medium)",
+    "name_arabic": "لاتيه",
+    "calories": 260.0,
+    "proteines": 12.0,
+    "glucides": 29.0,
+    "lipides": 10.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Latte with Sugar Free French Vanilla Syrup (Large)",
+    "name_arabic": "لاتيه",
+    "calories": 330.0,
+    "proteines": 15.0,
+    "glucides": 37.0,
+    "lipides": 14.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat Latte (Small)",
+    "name_arabic": "لاتيه",
+    "calories": 100.0,
+    "proteines": 10.0,
+    "glucides": 15.0,
+    "lipides": 0.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat Latte (Medium)",
+    "name_arabic": "لاتيه",
+    "calories": 130.0,
+    "proteines": 12.0,
+    "glucides": 19.0,
+    "lipides": 0.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat Latte (Large)",
+    "name_arabic": "لاتيه",
+    "calories": 170.0,
+    "proteines": 16.0,
+    "glucides": 25.0,
+    "lipides": 0.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat Caramel Latte (Small)",
+    "name_arabic": "لاتيه",
+    "calories": 200.0,
+    "proteines": 10.0,
+    "glucides": 41.0,
+    "lipides": 0.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat Caramel Latte (Medium)",
+    "name_arabic": "لاتيه",
+    "calories": 250.0,
+    "proteines": 12.0,
+    "glucides": 51.0,
+    "lipides": 0.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat Caramel Latte (Large)",
+    "name_arabic": "لاتيه",
+    "calories": 310.0,
+    "proteines": 16.0,
+    "glucides": 63.0,
+    "lipides": 0.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat Hazelnut Latte (Small)",
+    "name_arabic": "لاتيه",
+    "calories": 200.0,
+    "proteines": 10.0,
+    "glucides": 40.0,
+    "lipides": 0.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat Hazelnut Latte (Medium)",
+    "name_arabic": "لاتيه",
+    "calories": 250.0,
+    "proteines": 12.0,
+    "glucides": 51.0,
+    "lipides": 0.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat Hazelnut Latte (Large)",
+    "name_arabic": "لاتيه",
+    "calories": 310.0,
+    "proteines": 16.0,
+    "glucides": 63.0,
+    "lipides": 0.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat French Vanilla Latte (Small)",
+    "name_arabic": "لاتيه",
+    "calories": 190.0,
+    "proteines": 10.0,
+    "glucides": 39.0,
+    "lipides": 0.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat French Vanilla Latte (Medium)",
+    "name_arabic": "لاتيه",
+    "calories": 240.0,
+    "proteines": 12.0,
+    "glucides": 49.0,
+    "lipides": 0.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat French Vanilla Latte (Large)",
+    "name_arabic": "لاتيه",
+    "calories": 300.0,
+    "proteines": 16.0,
+    "glucides": 60.0,
+    "lipides": 0.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat Latte with Sugar Free French Vanilla Syrup (Small)",
+    "name_arabic": "لاتيه",
+    "calories": 140.0,
+    "proteines": 10.0,
+    "glucides": 24.0,
+    "lipides": 0.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat Latte with Sugar Free French Vanilla Syrup (Medium)",
+    "name_arabic": "لاتيه",
+    "calories": 170.0,
+    "proteines": 12.0,
+    "glucides": 30.0,
+    "lipides": 0.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat Latte with Sugar Free French Vanilla Syrup (Large)",
+    "name_arabic": "لاتيه",
+    "calories": 220.0,
+    "proteines": 16.0,
+    "glucides": 38.0,
+    "lipides": 0.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Mocha (Small)",
+    "name_arabic": "موكا",
+    "calories": 340.0,
+    "proteines": 10.0,
+    "glucides": 49.0,
+    "lipides": 11.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Mocha (Medium)",
+    "name_arabic": "موكا",
+    "calories": 410.0,
+    "proteines": 13.0,
+    "glucides": 60.0,
+    "lipides": 14.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Mocha (Large)",
+    "name_arabic": "موكا",
+    "calories": 500.0,
+    "proteines": 16.0,
+    "glucides": 72.0,
+    "lipides": 17.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Mocha with Nonfat Milk (Small)",
+    "name_arabic": "حليب",
+    "calories": 270.0,
+    "proteines": 11.0,
+    "glucides": 49.0,
+    "lipides": 3.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Mocha with Nonfat Milk (Medium)",
+    "name_arabic": "حليب",
+    "calories": 330.0,
+    "proteines": 13.0,
+    "glucides": 60.0,
+    "lipides": 3.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Mocha with Nonfat Milk (Large)",
+    "name_arabic": "حليب",
+    "calories": 390.0,
+    "proteines": 17.0,
+    "glucides": 73.0,
+    "lipides": 4.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Caramel Mocha (Small)",
+    "name_arabic": "موكا",
+    "calories": 320.0,
+    "proteines": 10.0,
+    "glucides": 45.0,
+    "lipides": 11.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Caramel Mocha (Medium)",
+    "name_arabic": "موكا",
+    "calories": 390.0,
+    "proteines": 12.0,
+    "glucides": 55.0,
+    "lipides": 14.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Caramel Mocha (Large)",
+    "name_arabic": "موكا",
+    "calories": 480.0,
+    "proteines": 16.0,
+    "glucides": 66.0,
+    "lipides": 17.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat Caramel Mocha (Small)",
+    "name_arabic": "موكا",
+    "calories": 250.0,
+    "proteines": 10.0,
+    "glucides": 45.0,
+    "lipides": 3.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat Caramel Mocha (Medium)",
+    "name_arabic": "موكا",
+    "calories": 310.0,
+    "proteines": 13.0,
+    "glucides": 56.0,
+    "lipides": 3.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Nonfat Caramel Mocha (Large)",
+    "name_arabic": "موكا",
+    "calories": 370.0,
+    "proteines": 17.0,
+    "glucides": 67.0,
+    "lipides": 3.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hot Chocolate (Small)",
+    "name_arabic": "كولا",
+    "calories": 360.0,
+    "proteines": 11.0,
+    "glucides": 50.0,
+    "lipides": 13.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hot Chocolate (Medium)",
+    "name_arabic": "كولا",
+    "calories": 440.0,
+    "proteines": 14.0,
+    "glucides": 61.0,
+    "lipides": 16.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hot Chocolate (Large)",
+    "name_arabic": "كولا",
+    "calories": 540.0,
+    "proteines": 17.0,
+    "glucides": 73.0,
+    "lipides": 20.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hot Chocolate with Nonfat Milk (Small)",
+    "name_arabic": "حليب",
+    "calories": 280.0,
+    "proteines": 12.0,
+    "glucides": 50.0,
+    "lipides": 3.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hot Chocolate with Nonfat Milk (Medium)",
+    "name_arabic": "حليب",
+    "calories": 340.0,
+    "proteines": 14.0,
+    "glucides": 61.0,
+    "lipides": 3.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hot Chocolate with Nonfat Milk (Large)",
+    "name_arabic": "حليب",
+    "calories": 400.0,
+    "proteines": 19.0,
+    "glucides": 74.0,
+    "lipides": 3.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Regular Iced Coffee (Small)",
+    "name_arabic": "قهوة",
+    "calories": 140.0,
+    "proteines": 1.0,
+    "glucides": 23.0,
+    "lipides": 4.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Regular Iced Coffee (Medium)",
+    "name_arabic": "قهوة",
+    "calories": 190.0,
+    "proteines": 1.0,
+    "glucides": 31.0,
+    "lipides": 7.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Regular Iced Coffee (Large)",
+    "name_arabic": "قهوة",
+    "calories": 270.0,
+    "proteines": 2.0,
+    "glucides": 47.0,
+    "lipides": 9.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Caramel Iced Coffee (Small)",
+    "name_arabic": "قهوة",
+    "calories": 130.0,
+    "proteines": 1.0,
+    "glucides": 22.0,
+    "lipides": 4.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Caramel Iced Coffee (Medium)",
+    "name_arabic": "قهوة",
+    "calories": 180.0,
+    "proteines": 1.0,
+    "glucides": 29.0,
+    "lipides": 7.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Caramel Iced Coffee (Large)",
+    "name_arabic": "قهوة",
+    "calories": 260.0,
+    "proteines": 2.0,
+    "glucides": 43.0,
+    "lipides": 9.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hazelnut Iced Coffee (Small)",
+    "name_arabic": "قهوة",
+    "calories": 130.0,
+    "proteines": 1.0,
+    "glucides": 21.0,
+    "lipides": 4.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hazelnut Iced Coffee (Medium)",
+    "name_arabic": "قهوة",
+    "calories": 180.0,
+    "proteines": 1.0,
+    "glucides": 29.0,
+    "lipides": 7.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Hazelnut Iced Coffee (Large)",
+    "name_arabic": "قهوة",
+    "calories": 250.0,
+    "proteines": 2.0,
+    "glucides": 43.0,
+    "lipides": 9.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "French Vanilla Iced Coffee (Small)",
+    "name_arabic": "قهوة",
+    "calories": 120.0,
+    "proteines": 1.0,
+    "glucides": 20.0,
+    "lipides": 4.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "French Vanilla Iced Coffee (Medium)",
+    "name_arabic": "قهوة",
+    "calories": 170.0,
+    "proteines": 1.0,
+    "glucides": 27.0,
+    "lipides": 7.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "French Vanilla Iced Coffee (Large)",
+    "name_arabic": "قهوة",
+    "calories": 240.0,
+    "proteines": 2.0,
+    "glucides": 41.0,
+    "lipides": 9.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Iced Coffee with Sugar Free French Vanilla Syrup (Small)",
+    "name_arabic": "قهوة",
+    "calories": 80.0,
+    "proteines": 1.0,
+    "glucides": 9.0,
+    "lipides": 4.5,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Iced Coffee with Sugar Free French Vanilla Syrup (Medium)",
+    "name_arabic": "قهوة",
+    "calories": 120.0,
+    "proteines": 1.0,
+    "glucides": 12.0,
+    "lipides": 7.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Iced Coffee with Sugar Free French Vanilla Syrup (Large)",
+    "name_arabic": "قهوة",
+    "calories": 160.0,
+    "proteines": 2.0,
+    "glucides": 18.0,
+    "lipides": 9.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Iced Mocha (Small)",
+    "name_arabic": "موكا",
+    "calories": 290.0,
+    "proteines": 8.0,
+    "glucides": 41.0,
+    "lipides": 11.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Iced Mocha (Medium)",
+    "name_arabic": "موكا",
+    "calories": 350.0,
+    "proteines": 9.0,
+    "glucides": 50.0,
+    "lipides": 13.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Iced Mocha (Large)",
+    "name_arabic": "موكا",
+    "calories": 480.0,
+    "proteines": 14.0,
+    "glucides": 70.0,
+    "lipides": 16.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Iced Mocha with Nonfat Milk (Small)",
+    "name_arabic": "حليب",
+    "calories": 240.0,
+    "proteines": 8.0,
+    "glucides": 41.0,
+    "lipides": 5.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Iced Mocha with Nonfat Milk (Medium)",
+    "name_arabic": "حليب",
+    "calories": 290.0,
+    "proteines": 10.0,
+    "glucides": 50.0,
+    "lipides": 5.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Iced Mocha with Nonfat Milk (Large)",
+    "name_arabic": "حليب",
+    "calories": 390.0,
+    "proteines": 14.0,
+    "glucides": 71.0,
+    "lipides": 6.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Iced Caramel Mocha (Small)",
+    "name_arabic": "موكا",
+    "calories": 280.0,
+    "proteines": 8.0,
+    "glucides": 38.0,
+    "lipides": 11.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Iced Caramel Mocha (Medium)",
+    "name_arabic": "موكا",
+    "calories": 340.0,
+    "proteines": 9.0,
+    "glucides": 46.0,
+    "lipides": 13.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Iced Caramel Mocha (Large)",
+    "name_arabic": "موكا",
+    "calories": 460.0,
+    "proteines": 13.0,
+    "glucides": 65.0,
+    "lipides": 16.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Iced Nonfat Caramel Mocha (Small)",
+    "name_arabic": "موكا",
+    "calories": 230.0,
+    "proteines": 8.0,
+    "glucides": 38.0,
+    "lipides": 5.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Iced Nonfat Caramel Mocha (Medium)",
+    "name_arabic": "موكا",
+    "calories": 270.0,
+    "proteines": 10.0,
+    "glucides": 47.0,
+    "lipides": 5.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Iced Nonfat Caramel Mocha (Large)",
+    "name_arabic": "موكا",
+    "calories": 370.0,
+    "proteines": 14.0,
+    "glucides": 65.0,
+    "lipides": 6.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Frappé Mocha (Small)",
+    "name_arabic": "موكا",
+    "calories": 450.0,
+    "proteines": 7.0,
+    "glucides": 65.0,
+    "lipides": 18.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Frappé Mocha (Medium)",
+    "name_arabic": "موكا",
+    "calories": 550.0,
+    "proteines": 9.0,
+    "glucides": 80.0,
+    "lipides": 22.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Frappé Mocha (Large)",
+    "name_arabic": "موكا",
+    "calories": 670.0,
+    "proteines": 11.0,
+    "glucides": 98.0,
+    "lipides": 26.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Frappé Caramel (Small)",
+    "name_arabic": "فرابيه كراميل",
+    "calories": 450.0,
+    "proteines": 7.0,
+    "glucides": 64.0,
+    "lipides": 19.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Frappé Caramel (Medium)",
+    "name_arabic": "فرابيه كراميل",
+    "calories": 550.0,
+    "proteines": 9.0,
+    "glucides": 79.0,
+    "lipides": 23.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Frappé Caramel (Large)",
+    "name_arabic": "فرابيه كراميل",
+    "calories": 670.0,
+    "proteines": 11.0,
+    "glucides": 96.0,
+    "lipides": 27.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Frappé Chocolate Chip (Small)",
+    "name_arabic": "كولا",
+    "calories": 530.0,
+    "proteines": 8.0,
+    "glucides": 76.0,
+    "lipides": 23.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Frappé Chocolate Chip (Medium)",
+    "name_arabic": "كولا",
+    "calories": 630.0,
+    "proteines": 9.0,
+    "glucides": 91.0,
+    "lipides": 26.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Frappé Chocolate Chip (Large)",
+    "name_arabic": "كولا",
+    "calories": 760.0,
+    "proteines": 12.0,
+    "glucides": 111.0,
+    "lipides": 31.0,
+    "category": "Coffee & Tea",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Blueberry Pomegranate Smoothie (Small)",
+    "name_arabic": "سموثي",
+    "calories": 220.0,
+    "proteines": 2.0,
+    "glucides": 50.0,
+    "lipides": 0.5,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Blueberry Pomegranate Smoothie (Medium)",
+    "name_arabic": "سموثي",
+    "calories": 260.0,
+    "proteines": 3.0,
+    "glucides": 62.0,
+    "lipides": 1.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Blueberry Pomegranate Smoothie (Large)",
+    "name_arabic": "سموثي",
+    "calories": 340.0,
+    "proteines": 4.0,
+    "glucides": 79.0,
+    "lipides": 1.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Strawberry Banana Smoothie (Small)",
+    "name_arabic": "موز",
+    "calories": 210.0,
+    "proteines": 3.0,
+    "glucides": 47.0,
+    "lipides": 0.5,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Strawberry Banana Smoothie (Medium)",
+    "name_arabic": "موز",
+    "calories": 250.0,
+    "proteines": 4.0,
+    "glucides": 58.0,
+    "lipides": 1.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Strawberry Banana Smoothie (Large)",
+    "name_arabic": "موز",
+    "calories": 330.0,
+    "proteines": 5.0,
+    "glucides": 74.0,
+    "lipides": 1.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Mango Pineapple Smoothie (Small)",
+    "name_arabic": "تفاح",
+    "calories": 210.0,
+    "proteines": 2.0,
+    "glucides": 50.0,
+    "lipides": 0.5,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Mango Pineapple Smoothie (Medium)",
+    "name_arabic": "تفاح",
+    "calories": 260.0,
+    "proteines": 3.0,
+    "glucides": 61.0,
+    "lipides": 1.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Mango Pineapple Smoothie (Large)",
+    "name_arabic": "تفاح",
+    "calories": 340.0,
+    "proteines": 4.0,
+    "glucides": 78.0,
+    "lipides": 1.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Vanilla Shake (Small)",
+    "name_arabic": "ميلك شيك",
+    "calories": 530.0,
+    "proteines": 11.0,
+    "glucides": 86.0,
+    "lipides": 15.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Vanilla Shake (Medium)",
+    "name_arabic": "ميلك شيك",
+    "calories": 660.0,
+    "proteines": 14.0,
+    "glucides": 109.0,
+    "lipides": 19.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Vanilla Shake (Large)",
+    "name_arabic": "ميلك شيك",
+    "calories": 820.0,
+    "proteines": 18.0,
+    "glucides": 135.0,
+    "lipides": 23.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Strawberry Shake (Small)",
+    "name_arabic": "فراولة",
+    "calories": 550.0,
+    "proteines": 12.0,
+    "glucides": 90.0,
+    "lipides": 16.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Strawberry Shake (Medium)",
+    "name_arabic": "فراولة",
+    "calories": 690.0,
+    "proteines": 15.0,
+    "glucides": 114.0,
+    "lipides": 20.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Strawberry Shake (Large)",
+    "name_arabic": "فراولة",
+    "calories": 850.0,
+    "proteines": 18.0,
+    "glucides": 140.0,
+    "lipides": 24.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Chocolate Shake (Small)",
+    "name_arabic": "كولا",
+    "calories": 560.0,
+    "proteines": 12.0,
+    "glucides": 91.0,
+    "lipides": 16.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Chocolate Shake (Medium)",
+    "name_arabic": "كولا",
+    "calories": 700.0,
+    "proteines": 15.0,
+    "glucides": 114.0,
+    "lipides": 20.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Chocolate Shake (Large)",
+    "name_arabic": "كولا",
+    "calories": 850.0,
+    "proteines": 19.0,
+    "glucides": 141.0,
+    "lipides": 23.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Shamrock Shake (Medium)",
+    "name_arabic": "هام",
+    "calories": 660.0,
+    "proteines": 14.0,
+    "glucides": 109.0,
+    "lipides": 19.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "Shamrock Shake (Large)",
+    "name_arabic": "هام",
+    "calories": 820.0,
+    "proteines": 18.0,
+    "glucides": 135.0,
+    "lipides": 23.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "McFlurry with M&M’s Candies (Small)",
+    "name_arabic": "ماك فلوري مع حلوى إم آند إمز",
+    "calories": 650.0,
+    "proteines": 13.0,
+    "glucides": 96.0,
+    "lipides": 23.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "McFlurry with M&M’s Candies (Medium)",
+    "name_arabic": "ماك فلوري مع حلوى إم آند إمز",
+    "calories": 930.0,
+    "proteines": 20.0,
+    "glucides": 139.0,
+    "lipides": 33.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "McFlurry with M&M’s Candies (Snack)",
+    "name_arabic": "ماك فلوري مع حلوى إم آند إمز",
+    "calories": 430.0,
+    "proteines": 9.0,
+    "glucides": 64.0,
+    "lipides": 15.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "McFlurry with Oreo Cookies (Small)",
+    "name_arabic": "ماك فلوري مع كوكيز الأوريو",
+    "calories": 510.0,
+    "proteines": 12.0,
+    "glucides": 80.0,
+    "lipides": 17.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "McFlurry with Oreo Cookies (Medium)",
+    "name_arabic": "ماك فلوري مع كوكيز اوريو",
+    "calories": 690.0,
+    "proteines": 15.0,
+    "glucides": 106.0,
+    "lipides": 23.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "McFlurry with Oreo Cookies (Snack)",
+    "name_arabic": "ماك فلوري مع كوكيز أوريو",
+    "calories": 340.0,
+    "proteines": 8.0,
+    "glucides": 53.0,
+    "lipides": 11.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "McFlurry with Reese's Peanut Butter Cups (Medium)",
+    "name_arabic": "زبدة",
+    "calories": 810.0,
+    "proteines": 21.0,
+    "glucides": 114.0,
+    "lipides": 32.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  },
+  {
+    "name_english": "McFlurry with Reese's Peanut Butter Cups (Snack)",
+    "name_arabic": "زبدة",
+    "calories": 410.0,
+    "proteines": 10.0,
+    "glucides": 57.0,
+    "lipides": 16.0,
+    "category": "Smoothies & Shakes",
+    "source": "menu.csv"
+  }
+]

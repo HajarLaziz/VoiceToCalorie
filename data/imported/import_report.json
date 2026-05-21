@@ -1,0 +1,32 @@
+{
+  "date": "2026-05-21T16:38:23.156951",
+  "total_processed": 576,
+  "total_added": 261,
+  "categories": {
+    "Dairy products": 28,
+    "Fats, Oils, Shortenings": 14,
+    "Meat, Poultry": 30,
+    "Fish, Seafood": 19,
+    "Vegetables A-E": 28,
+    "Vegetables F-P": 14,
+    "Vegetables R-Z": 27,
+    "Fruits A-F": 22,
+    "Fruits G-P": 28,
+    "Fruits R-Z": 8,
+    "Breads, cereals, fastfood,grains": 45,
+    "Soups": 10,
+    "Desserts, sweets": 29,
+    "Jams, Jellies": 8,
+    "Seeds and Nuts": 12,
+    "Drinks,Alcohol, Beverages": 10,
+    "Breakfast": 42,
+    "Beef & Pork": 15,
+    "Chicken & Fish": 27,
+    "Salads": 6,
+    "Snacks & Sides": 13,
+    "Desserts": 7,
+    "Beverages": 18,
+    "Coffee & Tea": 88,
+    "Smoothies & Shakes": 28
+  }
+}
